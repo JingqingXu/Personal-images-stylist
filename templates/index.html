@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人形象设计与换装</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <h1>个人形象设计与智能换装</h1>
+        <p>先上传个人照获取千问建议，再上传服装照生成换装结果。</p>
+      </section>
+
+      <section class="card">
+        <h2>步骤 1：上传个人照片并获取建议</h2>
+        <form id="analyzeForm">
+          <label class="file-label" for="userPhoto">个人照片（jpg/jpeg/png/webp）</label>
+          <input id="userPhoto" name="user_photo" type="file" accept="image/*" required />
+          <button type="submit" id="analyzeBtn">生成形象建议</button>
+        </form>
+        <div id="userPreview" class="image-preview hidden"></div>
+        <div id="advicePanel" class="result hidden">
+          <h3>千问建议</h3>
+          <pre id="adviceText"></pre>
+          <p id="adviceMeta" class="meta"></p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>步骤 2：上传服装照片并生成换装图</h2>
+        <form id="tryonForm">
+          <input id="sessionId" name="session_id" type="hidden" />
+          <label class="file-label" for="outfitPhoto">服装照片（建议纯背景、完整展示）</label>
+          <input id="outfitPhoto" name="outfit_photo" type="file" accept="image/*" required />
+          <button type="submit" id="tryonBtn" disabled>生成换装图</button>
+        </form>
+        <div id="outfitPreview" class="image-preview hidden"></div>
+        <div id="tryonPanel" class="result hidden">
+          <h3>换装结果</h3>
+          <img id="resultImage" alt="换装结果图" />
+          <p id="tryonMeta" class="meta"></p>
+        </div>
+      </section>
+
+      <p id="statusBar" class="status"></p>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

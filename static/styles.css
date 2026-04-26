@@ -1,0 +1,166 @@
+:root {
+  --bg: #f7f8fa;
+  --card: #ffffff;
+  --text: #1e2430;
+  --muted: #6d7788;
+  --primary: #1f6feb;
+  --primary-hover: #1657ba;
+  --border: #d6dde8;
+  --ok: #1f7a49;
+  --error: #b42318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: radial-gradient(circle at 15% 15%, #ffffff 0%, var(--bg) 52%, #eef2f7 100%);
+  color: var(--text);
+}
+
+.container {
+  width: min(980px, 94vw);
+  margin: 24px auto 40px;
+  display: grid;
+  gap: 16px;
+}
+
+.hero {
+  background: linear-gradient(125deg, #0f2748, #1f6feb 62%, #63a4ff);
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 24px rgba(9, 30, 66, 0.18);
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: clamp(22px, 4vw, 30px);
+}
+
+.hero p {
+  margin: 0;
+  opacity: 0.92;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 16px rgba(8, 24, 64, 0.06);
+}
+
+h2 {
+  margin: 0 0 14px;
+  font-size: 19px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+.file-label {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+input[type="file"] {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  background: #fafcff;
+}
+
+button {
+  width: fit-content;
+  border: 0;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover:enabled {
+  background: var(--primary-hover);
+}
+
+button:disabled {
+  background: #9db8df;
+  cursor: not-allowed;
+}
+
+.image-preview {
+  margin-top: 12px;
+}
+
+.image-preview img {
+  max-width: min(300px, 100%);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.result {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fbfdff;
+}
+
+.result h3 {
+  margin: 0 0 10px;
+}
+
+.result pre {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#resultImage {
+  width: min(460px, 100%);
+  display: block;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.status {
+  min-height: 24px;
+  margin: 0;
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.status.error {
+  color: var(--error);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 16px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+}
