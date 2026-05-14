@@ -1,0 +1,862 @@
+{"time":"2026-04-26T08:42:24.695977+00:00","event":"self_test","detail":"ok"}
+{"time":"2026-04-27T09:44:35.287638+00:00","event":"http_request_start","request_id":"cb1e412a2ac94756","method":"POST","path":"/api/analyze","query":{},"remote_addr":"192.168.2.34","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-04-27T09:44:35.287927+00:00","event":"analyze_start","request_id":"cb1e412a2ac94756"}
+{"time":"2026-04-27T09:45:07.637025+00:00","event":"analyze_success","request_id":"cb1e412a2ac94756","session_id":"7a7a8967d4364b5b833309abc7cfa9f3","user_photo":"user_photo.jpg","user_photo_size":87597,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-04-27T09:45:07.637174+00:00","event":"http_request_end","request_id":"cb1e412a2ac94756","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":32349.56}
+{"time":"2026-04-27T09:54:30.348476+00:00","event":"http_request_start","request_id":"ca32de631b944078","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:30.348578+00:00","event":"analyze_start","request_id":"ca32de631b944078"}
+{"time":"2026-04-27T09:54:31.564627+00:00","event":"analyze_success","request_id":"ca32de631b944078","session_id":"42cdedcc413f43fc9f21bd2091c2165d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:31.564794+00:00","event":"http_request_end","request_id":"ca32de631b944078","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1216.35}
+{"time":"2026-04-27T09:54:31.565535+00:00","event":"http_request_start","request_id":"ba9ec3623f0047b6","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.565677+00:00","event":"http_request_end","request_id":"ba9ec3623f0047b6","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/user_photo.png","status_code":403,"elapsed_ms":0.16}
+{"time":"2026-04-27T09:54:31.566056+00:00","event":"http_request_start","request_id":"0a74e69f191b4e84","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.566299+00:00","event":"http_request_end","request_id":"0a74e69f191b4e84","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/meta.json","status_code":404,"elapsed_ms":0.26}
+{"time":"2026-04-27T09:54:31.566493+00:00","event":"http_request_start","request_id":"905f986b24c14c97","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.566744+00:00","event":"http_request_end","request_id":"905f986b24c14c97","method":"GET","path":"/api/files/42cdedcc413f43fc9f21bd2091c2165d/user_photo.png","status_code":200,"elapsed_ms":0.26}
+{"time":"2026-04-27T09:54:31.567413+00:00","event":"http_request_start","request_id":"45cb443007834635","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.567453+00:00","event":"analyze_start","request_id":"45cb443007834635"}
+{"time":"2026-04-27T09:54:31.592770+00:00","event":"analyze_invalid_request","request_id":"45cb443007834635","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-04-27T09:54:31.592927+00:00","event":"http_request_end","request_id":"45cb443007834635","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":25.53}
+{"time":"2026-04-27T09:54:31.593959+00:00","event":"http_request_start","request_id":"5ff9790f07444a44","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.594026+00:00","event":"analyze_start","request_id":"5ff9790f07444a44"}
+{"time":"2026-04-27T09:54:31.595776+00:00","event":"analyze_success","request_id":"5ff9790f07444a44","session_id":"f79a0c1617e242989474013e3b1dc94d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-04-27T09:54:31.595850+00:00","event":"http_request_end","request_id":"5ff9790f07444a44","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.93}
+{"time":"2026-04-27T09:54:31.596803+00:00","event":"http_request_start","request_id":"4897c88101be4540","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.596850+00:00","event":"analyze_start","request_id":"4897c88101be4540"}
+{"time":"2026-04-27T09:54:31.598436+00:00","event":"analyze_success","request_id":"4897c88101be4540","session_id":"0eb8b6822bea461ab2548969d6e95401","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-04-27T09:54:31.598573+00:00","event":"http_request_end","request_id":"4897c88101be4540","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.8}
+{"time":"2026-04-27T09:54:31.599701+00:00","event":"http_request_start","request_id":"06cbd3d8129e4e71","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:31.599790+00:00","event":"analyze_start","request_id":"06cbd3d8129e4e71"}
+{"time":"2026-04-27T09:54:32.804368+00:00","event":"analyze_success","request_id":"06cbd3d8129e4e71","session_id":"a26a5c1d508d43f58b3212e1e0eeab00","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:32.804462+00:00","event":"http_request_end","request_id":"06cbd3d8129e4e71","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1204.81}
+{"time":"2026-04-27T09:54:32.804829+00:00","event":"http_request_start","request_id":"52ab10e82dd14a48","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:32.804869+00:00","event":"tryon_start","request_id":"52ab10e82dd14a48"}
+{"time":"2026-04-27T09:54:32.805596+00:00","event":"tryon_uploaded_outfits","request_id":"52ab10e82dd14a48","session_id":"a26a5c1d508d43f58b3212e1e0eeab00","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:54:32.809922+00:00","event":"tryon_failed","request_id":"52ab10e82dd14a48","session_id":"a26a5c1d508d43f58b3212e1e0eeab00","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-04-27T09:54:32.810010+00:00","event":"http_request_end","request_id":"52ab10e82dd14a48","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":5.19}
+{"time":"2026-04-27T09:54:32.810699+00:00","event":"http_request_start","request_id":"066989ae41b74972","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:32.810740+00:00","event":"analyze_start","request_id":"066989ae41b74972"}
+{"time":"2026-04-27T09:54:34.013847+00:00","event":"analyze_success","request_id":"066989ae41b74972","session_id":"3fb18c0febd645dfa78bc8b233dbafea","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:34.013980+00:00","event":"http_request_end","request_id":"066989ae41b74972","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.3}
+{"time":"2026-04-27T09:54:34.014856+00:00","event":"http_request_start","request_id":"3136ae0fe433401d","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:34.014938+00:00","event":"tryon_start","request_id":"3136ae0fe433401d"}
+{"time":"2026-04-27T09:54:34.015957+00:00","event":"tryon_uploaded_outfits","request_id":"3136ae0fe433401d","session_id":"3fb18c0febd645dfa78bc8b233dbafea","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:54:34.021466+00:00","event":"tryon_success","request_id":"3136ae0fe433401d","session_id":"3fb18c0febd645dfa78bc8b233dbafea","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:54:34.021557+00:00","event":"http_request_end","request_id":"3136ae0fe433401d","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":6.72}
+{"time":"2026-04-27T09:54:34.022499+00:00","event":"http_request_start","request_id":"bbbafd8e54144ffd","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:34.022542+00:00","event":"analyze_start","request_id":"bbbafd8e54144ffd"}
+{"time":"2026-04-27T09:54:35.225757+00:00","event":"analyze_success","request_id":"bbbafd8e54144ffd","session_id":"dbded783bbc54df1860b499bb8ef3b8d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:35.225861+00:00","event":"http_request_end","request_id":"bbbafd8e54144ffd","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.39}
+{"time":"2026-04-27T09:54:35.226449+00:00","event":"http_request_start","request_id":"a18fa6bd279e47f0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:35.226499+00:00","event":"tryon_start","request_id":"a18fa6bd279e47f0"}
+{"time":"2026-04-27T09:54:35.227314+00:00","event":"tryon_uploaded_outfits","request_id":"a18fa6bd279e47f0","session_id":"dbded783bbc54df1860b499bb8ef3b8d","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:54:35.234630+00:00","event":"tryon_success","request_id":"a18fa6bd279e47f0","session_id":"dbded783bbc54df1860b499bb8ef3b8d","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:54:35.234729+00:00","event":"http_request_end","request_id":"a18fa6bd279e47f0","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":8.29}
+{"time":"2026-04-27T09:54:35.238501+00:00","event":"http_request_start","request_id":"1f60a18b4f874ebe","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:35.238576+00:00","event":"analyze_start","request_id":"1f60a18b4f874ebe"}
+{"time":"2026-04-27T09:54:35.240009+00:00","event":"analyze_success","request_id":"1f60a18b4f874ebe","session_id":"593f00eac4cb420ca836de31d5d8febc","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-04-27T09:54:35.240081+00:00","event":"http_request_end","request_id":"1f60a18b4f874ebe","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.63}
+{"time":"2026-04-27T09:54:35.240445+00:00","event":"http_request_start","request_id":"2c9c3b6043294b17","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:35.240486+00:00","event":"tryon_start","request_id":"2c9c3b6043294b17"}
+{"time":"2026-04-27T09:54:35.241074+00:00","event":"tryon_uploaded_outfits","request_id":"2c9c3b6043294b17","session_id":"593f00eac4cb420ca836de31d5d8febc","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:54:35.245233+00:00","event":"tryon_success","request_id":"2c9c3b6043294b17","session_id":"593f00eac4cb420ca836de31d5d8febc","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:54:35.245300+00:00","event":"http_request_end","request_id":"2c9c3b6043294b17","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":4.86}
+{"time":"2026-04-27T09:54:35.246001+00:00","event":"http_request_start","request_id":"4ac4b4729d4449ba","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:35.246042+00:00","event":"analyze_start","request_id":"4ac4b4729d4449ba"}
+{"time":"2026-04-27T09:54:36.448972+00:00","event":"analyze_success","request_id":"4ac4b4729d4449ba","session_id":"2302257d57674e659f907a2feeabc9ae","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:36.449109+00:00","event":"http_request_end","request_id":"4ac4b4729d4449ba","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.13}
+{"time":"2026-04-27T09:54:36.449568+00:00","event":"http_request_start","request_id":"67887da3d5934934","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:36.449630+00:00","event":"tryon_start","request_id":"67887da3d5934934"}
+{"time":"2026-04-27T09:54:36.450088+00:00","event":"tryon_invalid_request","request_id":"67887da3d5934934","reason":"missing_outfit_images"}
+{"time":"2026-04-27T09:54:36.450154+00:00","event":"http_request_end","request_id":"67887da3d5934934","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.6}
+{"time":"2026-04-27T09:54:36.450818+00:00","event":"http_request_start","request_id":"0c99db6e51094498","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:36.450866+00:00","event":"analyze_start","request_id":"0c99db6e51094498"}
+{"time":"2026-04-27T09:54:37.654563+00:00","event":"analyze_success","request_id":"0c99db6e51094498","session_id":"411c9dad3d9b4fda827f06baa3f02a71","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:37.654667+00:00","event":"http_request_end","request_id":"0c99db6e51094498","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.88}
+{"time":"2026-04-27T09:54:37.655128+00:00","event":"http_request_start","request_id":"cc4ed712c2cb43e7","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:37.655182+00:00","event":"tryon_start","request_id":"cc4ed712c2cb43e7"}
+{"time":"2026-04-27T09:54:37.655789+00:00","event":"tryon_invalid_request","request_id":"cc4ed712c2cb43e7","reason":"invalid_session_token"}
+{"time":"2026-04-27T09:54:37.655861+00:00","event":"http_request_end","request_id":"cc4ed712c2cb43e7","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.74}
+{"time":"2026-04-27T09:54:37.656531+00:00","event":"http_request_start","request_id":"26c6379e35734990","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:37.656585+00:00","event":"analyze_start","request_id":"26c6379e35734990"}
+{"time":"2026-04-27T09:54:38.860157+00:00","event":"analyze_success","request_id":"26c6379e35734990","session_id":"aa1c0f98ba804a2d9fbda8069c39192c","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:54:38.860290+00:00","event":"http_request_end","request_id":"26c6379e35734990","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.79}
+{"time":"2026-04-27T09:54:38.860787+00:00","event":"http_request_start","request_id":"95e90f0fac8d43a2","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:54:38.860835+00:00","event":"tryon_start","request_id":"95e90f0fac8d43a2"}
+{"time":"2026-04-27T09:54:38.862144+00:00","event":"tryon_uploaded_outfits","request_id":"95e90f0fac8d43a2","session_id":"aa1c0f98ba804a2d9fbda8069c39192c","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-04-27T09:54:38.874088+00:00","event":"tryon_failed","request_id":"95e90f0fac8d43a2","session_id":"aa1c0f98ba804a2d9fbda8069c39192c","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-04-27T09:54:38.874239+00:00","event":"http_request_end","request_id":"95e90f0fac8d43a2","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":13.46}
+{"time":"2026-04-27T09:55:07.119806+00:00","event":"http_request_start","request_id":"714a40332b254c45","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:07.119900+00:00","event":"analyze_start","request_id":"714a40332b254c45"}
+{"time":"2026-04-27T09:55:08.335388+00:00","event":"analyze_success","request_id":"714a40332b254c45","session_id":"7e5da359d8244b37b65f116e6ba6d32e","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:08.335520+00:00","event":"http_request_end","request_id":"714a40332b254c45","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1215.74}
+{"time":"2026-04-27T09:55:08.336063+00:00","event":"http_request_start","request_id":"460b3dfde9d0478d","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.336179+00:00","event":"http_request_end","request_id":"460b3dfde9d0478d","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/user_photo.png","status_code":403,"elapsed_ms":0.13}
+{"time":"2026-04-27T09:55:08.336464+00:00","event":"http_request_start","request_id":"7d4a36b7260d40db","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.336637+00:00","event":"http_request_end","request_id":"7d4a36b7260d40db","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/meta.json","status_code":404,"elapsed_ms":0.19}
+{"time":"2026-04-27T09:55:08.336887+00:00","event":"http_request_start","request_id":"d7bcf68920ac4a8e","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.337200+00:00","event":"http_request_end","request_id":"d7bcf68920ac4a8e","method":"GET","path":"/api/files/7e5da359d8244b37b65f116e6ba6d32e/user_photo.png","status_code":200,"elapsed_ms":0.32}
+{"time":"2026-04-27T09:55:08.337994+00:00","event":"http_request_start","request_id":"ca9d0ba36f6347c7","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.338043+00:00","event":"analyze_start","request_id":"ca9d0ba36f6347c7"}
+{"time":"2026-04-27T09:55:08.350692+00:00","event":"analyze_invalid_request","request_id":"ca9d0ba36f6347c7","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-04-27T09:55:08.350792+00:00","event":"http_request_end","request_id":"ca9d0ba36f6347c7","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":12.83}
+{"time":"2026-04-27T09:55:08.351643+00:00","event":"http_request_start","request_id":"8d8e7e8fcba94b56","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.351688+00:00","event":"analyze_start","request_id":"8d8e7e8fcba94b56"}
+{"time":"2026-04-27T09:55:08.353302+00:00","event":"analyze_success","request_id":"8d8e7e8fcba94b56","session_id":"275cc347e1fb4c2ba3ad5d2368db8140","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-04-27T09:55:08.353364+00:00","event":"http_request_end","request_id":"8d8e7e8fcba94b56","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.75}
+{"time":"2026-04-27T09:55:08.354125+00:00","event":"http_request_start","request_id":"b7b5c4c7843647a3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.354162+00:00","event":"analyze_start","request_id":"b7b5c4c7843647a3"}
+{"time":"2026-04-27T09:55:08.355558+00:00","event":"analyze_success","request_id":"b7b5c4c7843647a3","session_id":"2ebb56c4d99c4778bd474d862dcc4e65","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-04-27T09:55:08.355628+00:00","event":"http_request_end","request_id":"b7b5c4c7843647a3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.53}
+{"time":"2026-04-27T09:55:08.356400+00:00","event":"http_request_start","request_id":"b4c65a196734466e","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:08.356441+00:00","event":"analyze_start","request_id":"b4c65a196734466e"}
+{"time":"2026-04-27T09:55:09.560024+00:00","event":"analyze_success","request_id":"b4c65a196734466e","session_id":"5273e20562b34abfa4c1efde48fd5607","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:09.560163+00:00","event":"http_request_end","request_id":"b4c65a196734466e","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.79}
+{"time":"2026-04-27T09:55:09.560787+00:00","event":"http_request_start","request_id":"f4d6573ad4954753","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:09.560836+00:00","event":"tryon_start","request_id":"f4d6573ad4954753"}
+{"time":"2026-04-27T09:55:09.561667+00:00","event":"tryon_uploaded_outfits","request_id":"f4d6573ad4954753","session_id":"5273e20562b34abfa4c1efde48fd5607","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:55:09.566988+00:00","event":"tryon_failed","request_id":"f4d6573ad4954753","session_id":"5273e20562b34abfa4c1efde48fd5607","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-04-27T09:55:09.567111+00:00","event":"http_request_end","request_id":"f4d6573ad4954753","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":6.35}
+{"time":"2026-04-27T09:55:09.570946+00:00","event":"http_request_start","request_id":"2ce2440f389546c4","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:09.571049+00:00","event":"analyze_start","request_id":"2ce2440f389546c4"}
+{"time":"2026-04-27T09:55:10.774263+00:00","event":"analyze_success","request_id":"2ce2440f389546c4","session_id":"7501908a19f74cbaae30167a48818505","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:10.774403+00:00","event":"http_request_end","request_id":"2ce2440f389546c4","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.5}
+{"time":"2026-04-27T09:55:10.775066+00:00","event":"http_request_start","request_id":"9d23267444454d36","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:10.775122+00:00","event":"tryon_start","request_id":"9d23267444454d36"}
+{"time":"2026-04-27T09:55:10.775923+00:00","event":"tryon_uploaded_outfits","request_id":"9d23267444454d36","session_id":"7501908a19f74cbaae30167a48818505","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:55:10.781975+00:00","event":"tryon_success","request_id":"9d23267444454d36","session_id":"7501908a19f74cbaae30167a48818505","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:55:10.782081+00:00","event":"http_request_end","request_id":"9d23267444454d36","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.02}
+{"time":"2026-04-27T09:55:10.785957+00:00","event":"http_request_start","request_id":"4303865711bc43eb","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:10.786035+00:00","event":"analyze_start","request_id":"4303865711bc43eb"}
+{"time":"2026-04-27T09:55:11.989628+00:00","event":"analyze_success","request_id":"4303865711bc43eb","session_id":"59c2385e25f64cd89a57c7dc1969d915","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:11.989780+00:00","event":"http_request_end","request_id":"4303865711bc43eb","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.86}
+{"time":"2026-04-27T09:55:11.990509+00:00","event":"http_request_start","request_id":"2db17b7efc7c4604","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:11.990560+00:00","event":"tryon_start","request_id":"2db17b7efc7c4604"}
+{"time":"2026-04-27T09:55:11.991350+00:00","event":"tryon_uploaded_outfits","request_id":"2db17b7efc7c4604","session_id":"59c2385e25f64cd89a57c7dc1969d915","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:55:11.997558+00:00","event":"tryon_success","request_id":"2db17b7efc7c4604","session_id":"59c2385e25f64cd89a57c7dc1969d915","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:55:11.997646+00:00","event":"http_request_end","request_id":"2db17b7efc7c4604","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.15}
+{"time":"2026-04-27T09:55:12.001410+00:00","event":"http_request_start","request_id":"57ccc7b3b81f4f3b","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:12.001452+00:00","event":"analyze_start","request_id":"57ccc7b3b81f4f3b"}
+{"time":"2026-04-27T09:55:12.002784+00:00","event":"analyze_success","request_id":"57ccc7b3b81f4f3b","session_id":"638f20812e044c77bfa414651d1d0c7d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-04-27T09:55:12.002852+00:00","event":"http_request_end","request_id":"57ccc7b3b81f4f3b","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.47}
+{"time":"2026-04-27T09:55:12.003167+00:00","event":"http_request_start","request_id":"488beb7c9ee74a6d","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:12.003207+00:00","event":"tryon_start","request_id":"488beb7c9ee74a6d"}
+{"time":"2026-04-27T09:55:12.003747+00:00","event":"tryon_uploaded_outfits","request_id":"488beb7c9ee74a6d","session_id":"638f20812e044c77bfa414651d1d0c7d","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-04-27T09:55:12.008317+00:00","event":"tryon_success","request_id":"488beb7c9ee74a6d","session_id":"638f20812e044c77bfa414651d1d0c7d","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-04-27T09:55:12.008393+00:00","event":"http_request_end","request_id":"488beb7c9ee74a6d","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":5.23}
+{"time":"2026-04-27T09:55:12.009090+00:00","event":"http_request_start","request_id":"7b0fd2e60c434cab","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:12.009128+00:00","event":"analyze_start","request_id":"7b0fd2e60c434cab"}
+{"time":"2026-04-27T09:55:13.212056+00:00","event":"analyze_success","request_id":"7b0fd2e60c434cab","session_id":"9ea260fdb88a4756aa2e5270cb457db9","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:13.212172+00:00","event":"http_request_end","request_id":"7b0fd2e60c434cab","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.1}
+{"time":"2026-04-27T09:55:13.212545+00:00","event":"http_request_start","request_id":"99b2db3b30154002","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:13.212593+00:00","event":"tryon_start","request_id":"99b2db3b30154002"}
+{"time":"2026-04-27T09:55:13.213033+00:00","event":"tryon_invalid_request","request_id":"99b2db3b30154002","reason":"missing_outfit_images"}
+{"time":"2026-04-27T09:55:13.213098+00:00","event":"http_request_end","request_id":"99b2db3b30154002","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.56}
+{"time":"2026-04-27T09:55:13.213798+00:00","event":"http_request_start","request_id":"3da8c009c4dd4686","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:13.213849+00:00","event":"analyze_start","request_id":"3da8c009c4dd4686"}
+{"time":"2026-04-27T09:55:14.417431+00:00","event":"analyze_success","request_id":"3da8c009c4dd4686","session_id":"f73847bdcb1042ba94af816ed18f53c1","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:14.417564+00:00","event":"http_request_end","request_id":"3da8c009c4dd4686","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.79}
+{"time":"2026-04-27T09:55:14.418093+00:00","event":"http_request_start","request_id":"c843e6e341b3464e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:14.418155+00:00","event":"tryon_start","request_id":"c843e6e341b3464e"}
+{"time":"2026-04-27T09:55:14.418749+00:00","event":"tryon_invalid_request","request_id":"c843e6e341b3464e","reason":"invalid_session_token"}
+{"time":"2026-04-27T09:55:14.418826+00:00","event":"http_request_end","request_id":"c843e6e341b3464e","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.75}
+{"time":"2026-04-27T09:55:14.419518+00:00","event":"http_request_start","request_id":"1dfe9121c1cb4b2e","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:14.419574+00:00","event":"analyze_start","request_id":"1dfe9121c1cb4b2e"}
+{"time":"2026-04-27T09:55:15.623065+00:00","event":"analyze_success","request_id":"1dfe9121c1cb4b2e","session_id":"dd5893cd2b0d472784f0030233806233","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-04-27T09:55:15.623190+00:00","event":"http_request_end","request_id":"1dfe9121c1cb4b2e","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.7}
+{"time":"2026-04-27T09:55:15.623633+00:00","event":"http_request_start","request_id":"605beda9d9674b1e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-04-27T09:55:15.623689+00:00","event":"tryon_start","request_id":"605beda9d9674b1e"}
+{"time":"2026-04-27T09:55:15.624840+00:00","event":"tryon_uploaded_outfits","request_id":"605beda9d9674b1e","session_id":"dd5893cd2b0d472784f0030233806233","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-04-27T09:55:15.638944+00:00","event":"tryon_failed","request_id":"605beda9d9674b1e","session_id":"dd5893cd2b0d472784f0030233806233","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-04-27T09:55:15.639066+00:00","event":"http_request_end","request_id":"605beda9d9674b1e","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":15.44}
+{"time":"2026-04-27T09:59:52.708772+00:00","event":"http_request_start","request_id":"f0baef91e9ba4dcf","method":"POST","path":"/api/analyze","query":{},"remote_addr":"192.168.2.34","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-04-27T09:59:52.708905+00:00","event":"analyze_start","request_id":"f0baef91e9ba4dcf"}
+{"time":"2026-04-27T10:00:01.820300+00:00","event":"analyze_success","request_id":"f0baef91e9ba4dcf","session_id":"5cac7c4de14e4aa39b3253ae14db7884","user_photo":"user_photo.jpg","user_photo_size":87597,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-04-27T10:00:01.820409+00:00","event":"http_request_end","request_id":"f0baef91e9ba4dcf","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":9111.69}
+{"time":"2026-05-13T12:52:42.205635+00:00","event":"http_request_start","request_id":"ecfc4ada3af44bde","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:42.205935+00:00","event":"analyze_start","request_id":"ecfc4ada3af44bde"}
+{"time":"2026-05-13T12:52:43.423703+00:00","event":"analyze_success","request_id":"ecfc4ada3af44bde","session_id":"03f4f14835b94287805fcfd8d8858d9e","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:43.423849+00:00","event":"http_request_end","request_id":"ecfc4ada3af44bde","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1218.25}
+{"time":"2026-05-13T12:52:43.424303+00:00","event":"http_request_start","request_id":"535dfac30beb4aa5","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.424429+00:00","event":"http_request_end","request_id":"535dfac30beb4aa5","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/user_photo.png","status_code":403,"elapsed_ms":0.14}
+{"time":"2026-05-13T12:52:43.424688+00:00","event":"http_request_start","request_id":"dae48390be784883","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.424848+00:00","event":"http_request_end","request_id":"dae48390be784883","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/meta.json","status_code":404,"elapsed_ms":0.17}
+{"time":"2026-05-13T12:52:43.425068+00:00","event":"http_request_start","request_id":"9a2a2e1b35d54c71","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.425429+00:00","event":"http_request_end","request_id":"9a2a2e1b35d54c71","method":"GET","path":"/api/files/03f4f14835b94287805fcfd8d8858d9e/user_photo.png","status_code":200,"elapsed_ms":0.37}
+{"time":"2026-05-13T12:52:43.426345+00:00","event":"http_request_start","request_id":"da01ef72800b4fd8","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.426411+00:00","event":"analyze_start","request_id":"da01ef72800b4fd8"}
+{"time":"2026-05-13T12:52:43.446922+00:00","event":"analyze_invalid_request","request_id":"da01ef72800b4fd8","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-13T12:52:43.447069+00:00","event":"http_request_end","request_id":"da01ef72800b4fd8","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":20.75}
+{"time":"2026-05-13T12:52:43.448193+00:00","event":"http_request_start","request_id":"b2d6ad4e07a34641","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.448244+00:00","event":"analyze_start","request_id":"b2d6ad4e07a34641"}
+{"time":"2026-05-13T12:52:43.449878+00:00","event":"analyze_success","request_id":"b2d6ad4e07a34641","session_id":"9f2d1faff2fe45819483300fd33bc462","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-13T12:52:43.449949+00:00","event":"http_request_end","request_id":"b2d6ad4e07a34641","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.79}
+{"time":"2026-05-13T12:52:43.450888+00:00","event":"http_request_start","request_id":"695f4aefcb634531","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.450932+00:00","event":"analyze_start","request_id":"695f4aefcb634531"}
+{"time":"2026-05-13T12:52:43.452252+00:00","event":"analyze_success","request_id":"695f4aefcb634531","session_id":"f974c5a99e86414ab962af314ae75045","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-13T12:52:43.452322+00:00","event":"http_request_end","request_id":"695f4aefcb634531","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.46}
+{"time":"2026-05-13T12:52:43.453057+00:00","event":"http_request_start","request_id":"816a3c7e96ea4006","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:43.453098+00:00","event":"analyze_start","request_id":"816a3c7e96ea4006"}
+{"time":"2026-05-13T12:52:44.656057+00:00","event":"analyze_success","request_id":"816a3c7e96ea4006","session_id":"adad6d5a1c6946cfb3d527027e3753e3","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:44.656192+00:00","event":"http_request_end","request_id":"816a3c7e96ea4006","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.15}
+{"time":"2026-05-13T12:52:44.656729+00:00","event":"http_request_start","request_id":"db7fe060fd1d4299","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:44.656801+00:00","event":"tryon_start","request_id":"db7fe060fd1d4299"}
+{"time":"2026-05-13T12:52:44.657536+00:00","event":"tryon_uploaded_outfits","request_id":"db7fe060fd1d4299","session_id":"adad6d5a1c6946cfb3d527027e3753e3","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:52:44.661767+00:00","event":"tryon_failed","request_id":"db7fe060fd1d4299","session_id":"adad6d5a1c6946cfb3d527027e3753e3","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T12:52:44.661866+00:00","event":"http_request_end","request_id":"db7fe060fd1d4299","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":5.15}
+{"time":"2026-05-13T12:52:44.665810+00:00","event":"http_request_start","request_id":"f8473ef71f064c2a","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:44.665888+00:00","event":"analyze_start","request_id":"f8473ef71f064c2a"}
+{"time":"2026-05-13T12:52:45.869110+00:00","event":"analyze_success","request_id":"f8473ef71f064c2a","session_id":"40a59d8a073342aabdb2479dbbdaa4fd","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:45.869205+00:00","event":"http_request_end","request_id":"f8473ef71f064c2a","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.44}
+{"time":"2026-05-13T12:52:45.869729+00:00","event":"http_request_start","request_id":"3988a99559e845ea","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:45.869771+00:00","event":"tryon_start","request_id":"3988a99559e845ea"}
+{"time":"2026-05-13T12:52:45.870445+00:00","event":"tryon_uploaded_outfits","request_id":"3988a99559e845ea","session_id":"40a59d8a073342aabdb2479dbbdaa4fd","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:52:45.875352+00:00","event":"tryon_success","request_id":"3988a99559e845ea","session_id":"40a59d8a073342aabdb2479dbbdaa4fd","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:52:45.875432+00:00","event":"http_request_end","request_id":"3988a99559e845ea","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":5.71}
+{"time":"2026-05-13T12:52:45.879342+00:00","event":"http_request_start","request_id":"e0ae1c2038dd4f86","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:45.879420+00:00","event":"analyze_start","request_id":"e0ae1c2038dd4f86"}
+{"time":"2026-05-13T12:52:47.082499+00:00","event":"analyze_success","request_id":"e0ae1c2038dd4f86","session_id":"aacee9bb81fd46f0a7268858b8260f3b","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:47.082638+00:00","event":"http_request_end","request_id":"e0ae1c2038dd4f86","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.33}
+{"time":"2026-05-13T12:52:47.083411+00:00","event":"http_request_start","request_id":"7d91a94fa61048b0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:47.083460+00:00","event":"tryon_start","request_id":"7d91a94fa61048b0"}
+{"time":"2026-05-13T12:52:47.084144+00:00","event":"tryon_uploaded_outfits","request_id":"7d91a94fa61048b0","session_id":"aacee9bb81fd46f0a7268858b8260f3b","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:52:47.089329+00:00","event":"tryon_success","request_id":"7d91a94fa61048b0","session_id":"aacee9bb81fd46f0a7268858b8260f3b","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:52:47.089442+00:00","event":"http_request_end","request_id":"7d91a94fa61048b0","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":6.05}
+{"time":"2026-05-13T12:52:47.093363+00:00","event":"http_request_start","request_id":"f2aad9cd5b1f4bdd","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:47.093437+00:00","event":"analyze_start","request_id":"f2aad9cd5b1f4bdd"}
+{"time":"2026-05-13T12:52:47.094866+00:00","event":"analyze_success","request_id":"f2aad9cd5b1f4bdd","session_id":"b20bafc7b7704ccb9f4be2ea3912815d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-05-13T12:52:47.094960+00:00","event":"http_request_end","request_id":"f2aad9cd5b1f4bdd","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.62}
+{"time":"2026-05-13T12:52:47.095346+00:00","event":"http_request_start","request_id":"a1a793597ea640b7","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:47.095384+00:00","event":"tryon_start","request_id":"a1a793597ea640b7"}
+{"time":"2026-05-13T12:52:47.095986+00:00","event":"tryon_uploaded_outfits","request_id":"a1a793597ea640b7","session_id":"b20bafc7b7704ccb9f4be2ea3912815d","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:52:47.100461+00:00","event":"tryon_success","request_id":"a1a793597ea640b7","session_id":"b20bafc7b7704ccb9f4be2ea3912815d","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:52:47.100580+00:00","event":"http_request_end","request_id":"a1a793597ea640b7","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":5.24}
+{"time":"2026-05-13T12:52:47.101570+00:00","event":"http_request_start","request_id":"b2711293c6664583","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:47.101613+00:00","event":"analyze_start","request_id":"b2711293c6664583"}
+{"time":"2026-05-13T12:52:48.305069+00:00","event":"analyze_success","request_id":"b2711293c6664583","session_id":"951ff3f3aac542f6b63135c7bbf2f0e7","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:48.305180+00:00","event":"http_request_end","request_id":"b2711293c6664583","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.64}
+{"time":"2026-05-13T12:52:48.305553+00:00","event":"http_request_start","request_id":"f502f88dfd01423f","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:48.305601+00:00","event":"tryon_start","request_id":"f502f88dfd01423f"}
+{"time":"2026-05-13T12:52:48.306038+00:00","event":"tryon_invalid_request","request_id":"f502f88dfd01423f","reason":"missing_outfit_images"}
+{"time":"2026-05-13T12:52:48.306101+00:00","event":"http_request_end","request_id":"f502f88dfd01423f","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.56}
+{"time":"2026-05-13T12:52:48.306913+00:00","event":"http_request_start","request_id":"4814518d966b42dd","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:48.306972+00:00","event":"analyze_start","request_id":"4814518d966b42dd"}
+{"time":"2026-05-13T12:52:49.511005+00:00","event":"analyze_success","request_id":"4814518d966b42dd","session_id":"aa6592e38a4f4ffc807b931d75dd76b9","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:49.511106+00:00","event":"http_request_end","request_id":"4814518d966b42dd","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1204.22}
+{"time":"2026-05-13T12:52:49.511503+00:00","event":"http_request_start","request_id":"9f549de2f4604e68","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:49.511544+00:00","event":"tryon_start","request_id":"9f549de2f4604e68"}
+{"time":"2026-05-13T12:52:49.512033+00:00","event":"tryon_invalid_request","request_id":"9f549de2f4604e68","reason":"invalid_session_token"}
+{"time":"2026-05-13T12:52:49.512093+00:00","event":"http_request_end","request_id":"9f549de2f4604e68","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.6}
+{"time":"2026-05-13T12:52:49.512822+00:00","event":"http_request_start","request_id":"aab0d3316f854647","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:49.512866+00:00","event":"analyze_start","request_id":"aab0d3316f854647"}
+{"time":"2026-05-13T12:52:50.716089+00:00","event":"analyze_success","request_id":"aab0d3316f854647","session_id":"0f083f6266fe4a5cb4c2743d830a44e0","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:52:50.716227+00:00","event":"http_request_end","request_id":"aab0d3316f854647","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.43}
+{"time":"2026-05-13T12:52:50.716670+00:00","event":"http_request_start","request_id":"c0f1fc88a86f4db1","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:52:50.716720+00:00","event":"tryon_start","request_id":"c0f1fc88a86f4db1"}
+{"time":"2026-05-13T12:52:50.718014+00:00","event":"tryon_uploaded_outfits","request_id":"c0f1fc88a86f4db1","session_id":"0f083f6266fe4a5cb4c2743d830a44e0","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-13T12:52:50.730802+00:00","event":"tryon_failed","request_id":"c0f1fc88a86f4db1","session_id":"0f083f6266fe4a5cb4c2743d830a44e0","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T12:52:50.730927+00:00","event":"http_request_end","request_id":"c0f1fc88a86f4db1","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":14.27}
+{"time":"2026-05-13T12:53:06.382347+00:00","event":"http_request_start","request_id":"adfdaeaf13464c91","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:06.382470+00:00","event":"analyze_start","request_id":"adfdaeaf13464c91"}
+{"time":"2026-05-13T12:53:07.599630+00:00","event":"analyze_success","request_id":"adfdaeaf13464c91","session_id":"5aa11370f376434c963c35573b5dd174","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:07.599779+00:00","event":"http_request_end","request_id":"adfdaeaf13464c91","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1217.46}
+{"time":"2026-05-13T12:53:07.600244+00:00","event":"http_request_start","request_id":"78d37c6f9e9540d7","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.600352+00:00","event":"http_request_end","request_id":"78d37c6f9e9540d7","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/user_photo.png","status_code":403,"elapsed_ms":0.12}
+{"time":"2026-05-13T12:53:07.600569+00:00","event":"http_request_start","request_id":"32181d16c8ee4a11","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.600736+00:00","event":"http_request_end","request_id":"32181d16c8ee4a11","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/meta.json","status_code":404,"elapsed_ms":0.18}
+{"time":"2026-05-13T12:53:07.600943+00:00","event":"http_request_start","request_id":"123b5b7e59c9433e","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.601245+00:00","event":"http_request_end","request_id":"123b5b7e59c9433e","method":"GET","path":"/api/files/5aa11370f376434c963c35573b5dd174/user_photo.png","status_code":200,"elapsed_ms":0.31}
+{"time":"2026-05-13T12:53:07.602336+00:00","event":"http_request_start","request_id":"f11bfd75786b4573","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.602402+00:00","event":"analyze_start","request_id":"f11bfd75786b4573"}
+{"time":"2026-05-13T12:53:07.615296+00:00","event":"analyze_invalid_request","request_id":"f11bfd75786b4573","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-13T12:53:07.615417+00:00","event":"http_request_end","request_id":"f11bfd75786b4573","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":13.11}
+{"time":"2026-05-13T12:53:07.616400+00:00","event":"http_request_start","request_id":"d101ad4f93354bce","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.616449+00:00","event":"analyze_start","request_id":"d101ad4f93354bce"}
+{"time":"2026-05-13T12:53:07.618119+00:00","event":"analyze_success","request_id":"d101ad4f93354bce","session_id":"0d88f4eb32a24241af6211fb6c54cf84","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-13T12:53:07.618186+00:00","event":"http_request_end","request_id":"d101ad4f93354bce","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.82}
+{"time":"2026-05-13T12:53:07.619058+00:00","event":"http_request_start","request_id":"d20ff1c8d2764ee7","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.619099+00:00","event":"analyze_start","request_id":"d20ff1c8d2764ee7"}
+{"time":"2026-05-13T12:53:07.620360+00:00","event":"analyze_success","request_id":"d20ff1c8d2764ee7","session_id":"8a1dc3eba6c24063b6c5629bd7cdbef7","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-13T12:53:07.620434+00:00","event":"http_request_end","request_id":"d20ff1c8d2764ee7","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.4}
+{"time":"2026-05-13T12:53:07.621162+00:00","event":"http_request_start","request_id":"9ccb27fa42184756","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:07.621201+00:00","event":"analyze_start","request_id":"9ccb27fa42184756"}
+{"time":"2026-05-13T12:53:08.824021+00:00","event":"analyze_success","request_id":"9ccb27fa42184756","session_id":"3fde0d9aa6584a0ca9ca1d0b9712fd32","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:08.824151+00:00","event":"http_request_end","request_id":"9ccb27fa42184756","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.01}
+{"time":"2026-05-13T12:53:08.824590+00:00","event":"http_request_start","request_id":"b6b1385c166c461a","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:08.824633+00:00","event":"tryon_start","request_id":"b6b1385c166c461a"}
+{"time":"2026-05-13T12:53:08.825336+00:00","event":"tryon_uploaded_outfits","request_id":"b6b1385c166c461a","session_id":"3fde0d9aa6584a0ca9ca1d0b9712fd32","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:53:08.829639+00:00","event":"tryon_failed","request_id":"b6b1385c166c461a","session_id":"3fde0d9aa6584a0ca9ca1d0b9712fd32","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T12:53:08.829752+00:00","event":"http_request_end","request_id":"b6b1385c166c461a","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":5.17}
+{"time":"2026-05-13T12:53:08.833661+00:00","event":"http_request_start","request_id":"3902775338fa4e65","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:08.833737+00:00","event":"analyze_start","request_id":"3902775338fa4e65"}
+{"time":"2026-05-13T12:53:10.036927+00:00","event":"analyze_success","request_id":"3902775338fa4e65","session_id":"93535493e38e441088fc4dc18df7b033","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:10.037071+00:00","event":"http_request_end","request_id":"3902775338fa4e65","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.45}
+{"time":"2026-05-13T12:53:10.037963+00:00","event":"http_request_start","request_id":"c3e2dd8d39594e13","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:10.038041+00:00","event":"tryon_start","request_id":"c3e2dd8d39594e13"}
+{"time":"2026-05-13T12:53:10.039230+00:00","event":"tryon_uploaded_outfits","request_id":"c3e2dd8d39594e13","session_id":"93535493e38e441088fc4dc18df7b033","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:53:10.046288+00:00","event":"tryon_success","request_id":"c3e2dd8d39594e13","session_id":"93535493e38e441088fc4dc18df7b033","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:53:10.046411+00:00","event":"http_request_end","request_id":"c3e2dd8d39594e13","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":8.46}
+{"time":"2026-05-13T12:53:10.047597+00:00","event":"http_request_start","request_id":"a0ea1944bf6747c1","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:10.047643+00:00","event":"analyze_start","request_id":"a0ea1944bf6747c1"}
+{"time":"2026-05-13T12:53:11.250832+00:00","event":"analyze_success","request_id":"a0ea1944bf6747c1","session_id":"cdc5aa1d36194444af5fc8bda9b8459f","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:11.250975+00:00","event":"http_request_end","request_id":"a0ea1944bf6747c1","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.4}
+{"time":"2026-05-13T12:53:11.251585+00:00","event":"http_request_start","request_id":"66e07764575c435f","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:11.251641+00:00","event":"tryon_start","request_id":"66e07764575c435f"}
+{"time":"2026-05-13T12:53:11.252437+00:00","event":"tryon_uploaded_outfits","request_id":"66e07764575c435f","session_id":"cdc5aa1d36194444af5fc8bda9b8459f","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:53:11.258763+00:00","event":"tryon_success","request_id":"66e07764575c435f","session_id":"cdc5aa1d36194444af5fc8bda9b8459f","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:53:11.258853+00:00","event":"http_request_end","request_id":"66e07764575c435f","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.28}
+{"time":"2026-05-13T12:53:11.262969+00:00","event":"http_request_start","request_id":"667e94e789f7475b","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:11.263048+00:00","event":"analyze_start","request_id":"667e94e789f7475b"}
+{"time":"2026-05-13T12:53:11.265411+00:00","event":"analyze_success","request_id":"667e94e789f7475b","session_id":"273cefc12b3149f4b91dd3d60470681c","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-05-13T12:53:11.265497+00:00","event":"http_request_end","request_id":"667e94e789f7475b","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2.57}
+{"time":"2026-05-13T12:53:11.265906+00:00","event":"http_request_start","request_id":"3e7340ac5501448a","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:11.265949+00:00","event":"tryon_start","request_id":"3e7340ac5501448a"}
+{"time":"2026-05-13T12:53:11.266746+00:00","event":"tryon_uploaded_outfits","request_id":"3e7340ac5501448a","session_id":"273cefc12b3149f4b91dd3d60470681c","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T12:53:11.271480+00:00","event":"tryon_success","request_id":"3e7340ac5501448a","session_id":"273cefc12b3149f4b91dd3d60470681c","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T12:53:11.271556+00:00","event":"http_request_end","request_id":"3e7340ac5501448a","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":5.66}
+{"time":"2026-05-13T12:53:11.272399+00:00","event":"http_request_start","request_id":"00693492d7df432e","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:11.272444+00:00","event":"analyze_start","request_id":"00693492d7df432e"}
+{"time":"2026-05-13T12:53:12.475644+00:00","event":"analyze_success","request_id":"00693492d7df432e","session_id":"307c08bba68946aca650d029ae0d63ac","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:12.475779+00:00","event":"http_request_end","request_id":"00693492d7df432e","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.41}
+{"time":"2026-05-13T12:53:12.476209+00:00","event":"http_request_start","request_id":"269a9995123c4fbb","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:12.476254+00:00","event":"tryon_start","request_id":"269a9995123c4fbb"}
+{"time":"2026-05-13T12:53:12.476712+00:00","event":"tryon_invalid_request","request_id":"269a9995123c4fbb","reason":"missing_outfit_images"}
+{"time":"2026-05-13T12:53:12.476780+00:00","event":"http_request_end","request_id":"269a9995123c4fbb","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.58}
+{"time":"2026-05-13T12:53:12.477643+00:00","event":"http_request_start","request_id":"166c59f855814cd3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:12.477696+00:00","event":"analyze_start","request_id":"166c59f855814cd3"}
+{"time":"2026-05-13T12:53:13.681103+00:00","event":"analyze_success","request_id":"166c59f855814cd3","session_id":"25f92b0d32f140dd87e160109e42354d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:13.681237+00:00","event":"http_request_end","request_id":"166c59f855814cd3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.63}
+{"time":"2026-05-13T12:53:13.681782+00:00","event":"http_request_start","request_id":"1162efcc72af4b26","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:13.681846+00:00","event":"tryon_start","request_id":"1162efcc72af4b26"}
+{"time":"2026-05-13T12:53:13.682400+00:00","event":"tryon_invalid_request","request_id":"1162efcc72af4b26","reason":"invalid_session_token"}
+{"time":"2026-05-13T12:53:13.682460+00:00","event":"http_request_end","request_id":"1162efcc72af4b26","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.69}
+{"time":"2026-05-13T12:53:13.683146+00:00","event":"http_request_start","request_id":"74d76b94823f4a31","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:13.683185+00:00","event":"analyze_start","request_id":"74d76b94823f4a31"}
+{"time":"2026-05-13T12:53:14.886152+00:00","event":"analyze_success","request_id":"74d76b94823f4a31","session_id":"cb32be81a0064ff5a35c1ca0c61f87d4","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T12:53:14.886286+00:00","event":"http_request_end","request_id":"74d76b94823f4a31","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.16}
+{"time":"2026-05-13T12:53:14.886867+00:00","event":"http_request_start","request_id":"2f84f284736146a7","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T12:53:14.886963+00:00","event":"tryon_start","request_id":"2f84f284736146a7"}
+{"time":"2026-05-13T12:53:14.888451+00:00","event":"tryon_uploaded_outfits","request_id":"2f84f284736146a7","session_id":"cb32be81a0064ff5a35c1ca0c61f87d4","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-13T12:53:14.900187+00:00","event":"tryon_failed","request_id":"2f84f284736146a7","session_id":"cb32be81a0064ff5a35c1ca0c61f87d4","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T12:53:14.900301+00:00","event":"http_request_end","request_id":"2f84f284736146a7","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":13.45}
+{"time":"2026-05-13T13:40:20.608172+00:00","event":"http_request_start","request_id":"7be0346a6f1b4233","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:20.608283+00:00","event":"analyze_start","request_id":"7be0346a6f1b4233"}
+{"time":"2026-05-13T13:40:21.825329+00:00","event":"analyze_success","request_id":"7be0346a6f1b4233","session_id":"660fc70f791e47a5875fb83aa1144e29","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:21.825544+00:00","event":"http_request_end","request_id":"7be0346a6f1b4233","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1217.4}
+{"time":"2026-05-13T13:40:21.826170+00:00","event":"http_request_start","request_id":"7bcd6b1ce3c34107","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.826264+00:00","event":"http_request_end","request_id":"7bcd6b1ce3c34107","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/user_photo.png","status_code":403,"elapsed_ms":0.11}
+{"time":"2026-05-13T13:40:21.826496+00:00","event":"http_request_start","request_id":"139ce7d27a1f4a40","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.826656+00:00","event":"http_request_end","request_id":"139ce7d27a1f4a40","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/meta.json","status_code":404,"elapsed_ms":0.17}
+{"time":"2026-05-13T13:40:21.826865+00:00","event":"http_request_start","request_id":"fd08d97347a44e9c","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.827155+00:00","event":"http_request_end","request_id":"fd08d97347a44e9c","method":"GET","path":"/api/files/660fc70f791e47a5875fb83aa1144e29/user_photo.png","status_code":200,"elapsed_ms":0.3}
+{"time":"2026-05-13T13:40:21.828014+00:00","event":"http_request_start","request_id":"5645445839d44e94","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.828078+00:00","event":"analyze_start","request_id":"5645445839d44e94"}
+{"time":"2026-05-13T13:40:21.840870+00:00","event":"analyze_invalid_request","request_id":"5645445839d44e94","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-13T13:40:21.840965+00:00","event":"http_request_end","request_id":"5645445839d44e94","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":12.98}
+{"time":"2026-05-13T13:40:21.841881+00:00","event":"http_request_start","request_id":"ab3ca0cb630d4718","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.841925+00:00","event":"analyze_start","request_id":"ab3ca0cb630d4718"}
+{"time":"2026-05-13T13:40:21.843552+00:00","event":"analyze_success","request_id":"ab3ca0cb630d4718","session_id":"b4f58681a5884d1f94c2d7a68203665a","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-13T13:40:21.843614+00:00","event":"http_request_end","request_id":"ab3ca0cb630d4718","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.76}
+{"time":"2026-05-13T13:40:21.844525+00:00","event":"http_request_start","request_id":"0b5c4d9492654608","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.844567+00:00","event":"analyze_start","request_id":"0b5c4d9492654608"}
+{"time":"2026-05-13T13:40:21.845865+00:00","event":"analyze_success","request_id":"0b5c4d9492654608","session_id":"327b1776faf44845abec7b46dab32bb6","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-13T13:40:21.845935+00:00","event":"http_request_end","request_id":"0b5c4d9492654608","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.44}
+{"time":"2026-05-13T13:40:21.846706+00:00","event":"http_request_start","request_id":"fa36df94111d400b","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:21.846752+00:00","event":"analyze_start","request_id":"fa36df94111d400b"}
+{"time":"2026-05-13T13:40:23.049670+00:00","event":"analyze_success","request_id":"fa36df94111d400b","session_id":"bb9e7a1c616740fc9e113fb5e49bad17","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:23.049777+00:00","event":"http_request_end","request_id":"fa36df94111d400b","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.09}
+{"time":"2026-05-13T13:40:23.050218+00:00","event":"http_request_start","request_id":"0c5e37e3f89f46f5","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:23.050265+00:00","event":"tryon_start","request_id":"0c5e37e3f89f46f5"}
+{"time":"2026-05-13T13:40:23.051069+00:00","event":"tryon_uploaded_outfits","request_id":"0c5e37e3f89f46f5","session_id":"bb9e7a1c616740fc9e113fb5e49bad17","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:23.056264+00:00","event":"tryon_failed","request_id":"0c5e37e3f89f46f5","session_id":"bb9e7a1c616740fc9e113fb5e49bad17","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T13:40:23.056356+00:00","event":"http_request_end","request_id":"0c5e37e3f89f46f5","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":6.16}
+{"time":"2026-05-13T13:40:23.060192+00:00","event":"http_request_start","request_id":"3de24d608f924e24","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:23.060265+00:00","event":"analyze_start","request_id":"3de24d608f924e24"}
+{"time":"2026-05-13T13:40:24.264297+00:00","event":"analyze_success","request_id":"3de24d608f924e24","session_id":"161bf7abf9784cb381f3a425fd020ed1","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:24.264417+00:00","event":"http_request_end","request_id":"3de24d608f924e24","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1204.26}
+{"time":"2026-05-13T13:40:24.265002+00:00","event":"http_request_start","request_id":"e2086f9c7f724b29","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:24.265050+00:00","event":"tryon_start","request_id":"e2086f9c7f724b29"}
+{"time":"2026-05-13T13:40:24.265842+00:00","event":"tryon_uploaded_outfits","request_id":"e2086f9c7f724b29","session_id":"161bf7abf9784cb381f3a425fd020ed1","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:24.271870+00:00","event":"tryon_success","request_id":"e2086f9c7f724b29","session_id":"161bf7abf9784cb381f3a425fd020ed1","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:24.271957+00:00","event":"http_request_end","request_id":"e2086f9c7f724b29","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":6.97}
+{"time":"2026-05-13T13:40:24.275952+00:00","event":"http_request_start","request_id":"2f9bc59b3ef245c3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:24.276024+00:00","event":"analyze_start","request_id":"2f9bc59b3ef245c3"}
+{"time":"2026-05-13T13:40:25.480099+00:00","event":"analyze_success","request_id":"2f9bc59b3ef245c3","session_id":"44973d9ec94543af99f85aecc708f971","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:25.480223+00:00","event":"http_request_end","request_id":"2f9bc59b3ef245c3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1204.31}
+{"time":"2026-05-13T13:40:25.480818+00:00","event":"http_request_start","request_id":"adb17f8ba23a410b","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:25.480869+00:00","event":"tryon_start","request_id":"adb17f8ba23a410b"}
+{"time":"2026-05-13T13:40:25.481663+00:00","event":"tryon_uploaded_outfits","request_id":"adb17f8ba23a410b","session_id":"44973d9ec94543af99f85aecc708f971","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:25.487855+00:00","event":"tryon_success","request_id":"adb17f8ba23a410b","session_id":"44973d9ec94543af99f85aecc708f971","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:25.487938+00:00","event":"http_request_end","request_id":"adb17f8ba23a410b","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.13}
+{"time":"2026-05-13T13:40:25.492601+00:00","event":"http_request_start","request_id":"686c816eca9e44a7","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:25.492675+00:00","event":"analyze_start","request_id":"686c816eca9e44a7"}
+{"time":"2026-05-13T13:40:25.494123+00:00","event":"analyze_success","request_id":"686c816eca9e44a7","session_id":"d14f39256fd04c2fa2883fa4cf13b792","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-05-13T13:40:25.494202+00:00","event":"http_request_end","request_id":"686c816eca9e44a7","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.63}
+{"time":"2026-05-13T13:40:25.494551+00:00","event":"http_request_start","request_id":"4cb3cd4a0e3747e0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:25.494589+00:00","event":"tryon_start","request_id":"4cb3cd4a0e3747e0"}
+{"time":"2026-05-13T13:40:25.495119+00:00","event":"tryon_uploaded_outfits","request_id":"4cb3cd4a0e3747e0","session_id":"d14f39256fd04c2fa2883fa4cf13b792","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:25.499363+00:00","event":"tryon_success","request_id":"4cb3cd4a0e3747e0","session_id":"d14f39256fd04c2fa2883fa4cf13b792","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:25.499452+00:00","event":"http_request_end","request_id":"4cb3cd4a0e3747e0","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":4.91}
+{"time":"2026-05-13T13:40:25.500256+00:00","event":"http_request_start","request_id":"f2fdad20d1e246e3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:25.500294+00:00","event":"analyze_start","request_id":"f2fdad20d1e246e3"}
+{"time":"2026-05-13T13:40:26.703961+00:00","event":"analyze_success","request_id":"f2fdad20d1e246e3","session_id":"c1ad8a351bc1421e8479eb14b34e3491","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:26.704098+00:00","event":"http_request_end","request_id":"f2fdad20d1e246e3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.86}
+{"time":"2026-05-13T13:40:26.704483+00:00","event":"http_request_start","request_id":"e32f0cec3bc24ff8","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:26.704550+00:00","event":"tryon_start","request_id":"e32f0cec3bc24ff8"}
+{"time":"2026-05-13T13:40:26.704999+00:00","event":"tryon_invalid_request","request_id":"e32f0cec3bc24ff8","reason":"missing_outfit_images"}
+{"time":"2026-05-13T13:40:26.705061+00:00","event":"http_request_end","request_id":"e32f0cec3bc24ff8","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.59}
+{"time":"2026-05-13T13:40:26.705926+00:00","event":"http_request_start","request_id":"b7f159d579e944c6","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:26.705977+00:00","event":"analyze_start","request_id":"b7f159d579e944c6"}
+{"time":"2026-05-13T13:40:27.909419+00:00","event":"analyze_success","request_id":"b7f159d579e944c6","session_id":"f75b5c1f3943428e8e24afed37a7db3b","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:27.909559+00:00","event":"http_request_end","request_id":"b7f159d579e944c6","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.66}
+{"time":"2026-05-13T13:40:27.910036+00:00","event":"http_request_start","request_id":"b7a4edbfda764df6","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:27.910082+00:00","event":"tryon_start","request_id":"b7a4edbfda764df6"}
+{"time":"2026-05-13T13:40:27.910664+00:00","event":"tryon_invalid_request","request_id":"b7a4edbfda764df6","reason":"invalid_session_token"}
+{"time":"2026-05-13T13:40:27.910735+00:00","event":"http_request_end","request_id":"b7a4edbfda764df6","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.71}
+{"time":"2026-05-13T13:40:27.911532+00:00","event":"http_request_start","request_id":"c20e49e9ae0d48db","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:27.911604+00:00","event":"analyze_start","request_id":"c20e49e9ae0d48db"}
+{"time":"2026-05-13T13:40:29.115207+00:00","event":"analyze_success","request_id":"c20e49e9ae0d48db","session_id":"47d9ed320bcc4f71a27fef6054635eec","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:29.115341+00:00","event":"http_request_end","request_id":"c20e49e9ae0d48db","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.84}
+{"time":"2026-05-13T13:40:29.115871+00:00","event":"http_request_start","request_id":"42d3c258fa3c41d5","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:29.115927+00:00","event":"tryon_start","request_id":"42d3c258fa3c41d5"}
+{"time":"2026-05-13T13:40:29.117106+00:00","event":"tryon_uploaded_outfits","request_id":"42d3c258fa3c41d5","session_id":"47d9ed320bcc4f71a27fef6054635eec","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-13T13:40:29.130974+00:00","event":"tryon_failed","request_id":"42d3c258fa3c41d5","session_id":"47d9ed320bcc4f71a27fef6054635eec","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T13:40:29.131062+00:00","event":"http_request_end","request_id":"42d3c258fa3c41d5","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":15.2}
+{"time":"2026-05-13T13:40:41.900976+00:00","event":"http_request_start","request_id":"a5db58a84a804f40","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:41.901108+00:00","event":"analyze_start","request_id":"a5db58a84a804f40"}
+{"time":"2026-05-13T13:40:43.118118+00:00","event":"analyze_success","request_id":"a5db58a84a804f40","session_id":"aae37d5c14d34ef0a4fa7ea3ae04e482","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:43.118232+00:00","event":"http_request_end","request_id":"a5db58a84a804f40","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1217.29}
+{"time":"2026-05-13T13:40:43.118601+00:00","event":"http_request_start","request_id":"5d83bf1a479c4b15","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.118690+00:00","event":"http_request_end","request_id":"5d83bf1a479c4b15","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/user_photo.png","status_code":403,"elapsed_ms":0.1}
+{"time":"2026-05-13T13:40:43.118954+00:00","event":"http_request_start","request_id":"17240796b75e485e","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.119113+00:00","event":"http_request_end","request_id":"17240796b75e485e","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/meta.json","status_code":404,"elapsed_ms":0.17}
+{"time":"2026-05-13T13:40:43.119325+00:00","event":"http_request_start","request_id":"9dfd3b35410a4465","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.119632+00:00","event":"http_request_end","request_id":"9dfd3b35410a4465","method":"GET","path":"/api/files/aae37d5c14d34ef0a4fa7ea3ae04e482/user_photo.png","status_code":200,"elapsed_ms":0.31}
+{"time":"2026-05-13T13:40:43.120561+00:00","event":"http_request_start","request_id":"5ba73ef559b641f2","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.120627+00:00","event":"analyze_start","request_id":"5ba73ef559b641f2"}
+{"time":"2026-05-13T13:40:43.135720+00:00","event":"analyze_invalid_request","request_id":"5ba73ef559b641f2","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-13T13:40:43.135899+00:00","event":"http_request_end","request_id":"5ba73ef559b641f2","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":15.37}
+{"time":"2026-05-13T13:40:43.137066+00:00","event":"http_request_start","request_id":"e8406fd032b44aee","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.137115+00:00","event":"analyze_start","request_id":"e8406fd032b44aee"}
+{"time":"2026-05-13T13:40:43.138790+00:00","event":"analyze_success","request_id":"e8406fd032b44aee","session_id":"55f5f31a58d447dab0115df08e902fd9","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-13T13:40:43.138855+00:00","event":"http_request_end","request_id":"e8406fd032b44aee","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.82}
+{"time":"2026-05-13T13:40:43.139803+00:00","event":"http_request_start","request_id":"99063df437a242cb","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.139857+00:00","event":"analyze_start","request_id":"99063df437a242cb"}
+{"time":"2026-05-13T13:40:43.141183+00:00","event":"analyze_success","request_id":"99063df437a242cb","session_id":"e317f4e130b7494e89ee9ca2546762f1","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-13T13:40:43.141260+00:00","event":"http_request_end","request_id":"99063df437a242cb","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.49}
+{"time":"2026-05-13T13:40:43.142070+00:00","event":"http_request_start","request_id":"c4656472c06e487e","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:43.142112+00:00","event":"analyze_start","request_id":"c4656472c06e487e"}
+{"time":"2026-05-13T13:40:44.345406+00:00","event":"analyze_success","request_id":"c4656472c06e487e","session_id":"9e903981d38d401893225f5561266273","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:44.345531+00:00","event":"http_request_end","request_id":"c4656472c06e487e","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.48}
+{"time":"2026-05-13T13:40:44.345944+00:00","event":"http_request_start","request_id":"5b261148319341a0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:44.345991+00:00","event":"tryon_start","request_id":"5b261148319341a0"}
+{"time":"2026-05-13T13:40:44.346792+00:00","event":"tryon_uploaded_outfits","request_id":"5b261148319341a0","session_id":"9e903981d38d401893225f5561266273","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:44.351977+00:00","event":"tryon_failed","request_id":"5b261148319341a0","session_id":"9e903981d38d401893225f5561266273","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T13:40:44.352067+00:00","event":"http_request_end","request_id":"5b261148319341a0","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":6.13}
+{"time":"2026-05-13T13:40:44.356335+00:00","event":"http_request_start","request_id":"a8ef91bc08e749b5","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:44.356429+00:00","event":"analyze_start","request_id":"a8ef91bc08e749b5"}
+{"time":"2026-05-13T13:40:45.559973+00:00","event":"analyze_success","request_id":"a8ef91bc08e749b5","session_id":"40a8e9f41289476a832ea55605682921","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:45.560079+00:00","event":"http_request_end","request_id":"a8ef91bc08e749b5","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.78}
+{"time":"2026-05-13T13:40:45.560840+00:00","event":"http_request_start","request_id":"3f7aea2a206447eb","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:45.560924+00:00","event":"tryon_start","request_id":"3f7aea2a206447eb"}
+{"time":"2026-05-13T13:40:45.562017+00:00","event":"tryon_uploaded_outfits","request_id":"3f7aea2a206447eb","session_id":"40a8e9f41289476a832ea55605682921","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:45.568409+00:00","event":"tryon_success","request_id":"3f7aea2a206447eb","session_id":"40a8e9f41289476a832ea55605682921","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:45.568507+00:00","event":"http_request_end","request_id":"3f7aea2a206447eb","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.68}
+{"time":"2026-05-13T13:40:45.572769+00:00","event":"http_request_start","request_id":"8497978daa814b7a","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:45.572875+00:00","event":"analyze_start","request_id":"8497978daa814b7a"}
+{"time":"2026-05-13T13:40:46.776089+00:00","event":"analyze_success","request_id":"8497978daa814b7a","session_id":"4777aeb682b249e891d8f1d26dcf7825","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:46.776199+00:00","event":"http_request_end","request_id":"8497978daa814b7a","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.47}
+{"time":"2026-05-13T13:40:46.776809+00:00","event":"http_request_start","request_id":"a4e48c4c16d84097","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:46.776861+00:00","event":"tryon_start","request_id":"a4e48c4c16d84097"}
+{"time":"2026-05-13T13:40:46.777657+00:00","event":"tryon_uploaded_outfits","request_id":"a4e48c4c16d84097","session_id":"4777aeb682b249e891d8f1d26dcf7825","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:46.783995+00:00","event":"tryon_success","request_id":"a4e48c4c16d84097","session_id":"4777aeb682b249e891d8f1d26dcf7825","tryon_provider":"vendor_api:vendor_b","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:46.784085+00:00","event":"http_request_end","request_id":"a4e48c4c16d84097","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":7.29}
+{"time":"2026-05-13T13:40:46.788054+00:00","event":"http_request_start","request_id":"748f1517c11d49f4","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:46.788129+00:00","event":"analyze_start","request_id":"748f1517c11d49f4"}
+{"time":"2026-05-13T13:40:46.789527+00:00","event":"analyze_success","request_id":"748f1517c11d49f4","session_id":"59d722972f9648d38d5181e3c7196d86","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-05-13T13:40:46.789598+00:00","event":"http_request_end","request_id":"748f1517c11d49f4","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.59}
+{"time":"2026-05-13T13:40:46.789931+00:00","event":"http_request_start","request_id":"ad9f5604b3494928","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:46.789968+00:00","event":"tryon_start","request_id":"ad9f5604b3494928"}
+{"time":"2026-05-13T13:40:46.790508+00:00","event":"tryon_uploaded_outfits","request_id":"ad9f5604b3494928","session_id":"59d722972f9648d38d5181e3c7196d86","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-13T13:40:46.794678+00:00","event":"tryon_success","request_id":"ad9f5604b3494928","session_id":"59d722972f9648d38d5181e3c7196d86","tryon_provider":"local_model","tryon_note":"","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-13T13:40:46.794753+00:00","event":"http_request_end","request_id":"ad9f5604b3494928","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":4.83}
+{"time":"2026-05-13T13:40:46.795569+00:00","event":"http_request_start","request_id":"bfd1168820d44859","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:46.795609+00:00","event":"analyze_start","request_id":"bfd1168820d44859"}
+{"time":"2026-05-13T13:40:47.998912+00:00","event":"analyze_success","request_id":"bfd1168820d44859","session_id":"6a09e38d1b86497aa89b6d622070c6ce","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:47.999046+00:00","event":"http_request_end","request_id":"bfd1168820d44859","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.5}
+{"time":"2026-05-13T13:40:47.999427+00:00","event":"http_request_start","request_id":"79cbe0df5cf74c90","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:47.999476+00:00","event":"tryon_start","request_id":"79cbe0df5cf74c90"}
+{"time":"2026-05-13T13:40:47.999916+00:00","event":"tryon_invalid_request","request_id":"79cbe0df5cf74c90","reason":"missing_outfit_images"}
+{"time":"2026-05-13T13:40:47.999979+00:00","event":"http_request_end","request_id":"79cbe0df5cf74c90","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.56}
+{"time":"2026-05-13T13:40:48.000780+00:00","event":"http_request_start","request_id":"602ba70f5ccb4486","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:48.000830+00:00","event":"analyze_start","request_id":"602ba70f5ccb4486"}
+{"time":"2026-05-13T13:40:49.204331+00:00","event":"analyze_success","request_id":"602ba70f5ccb4486","session_id":"ac9f47adb6f14b3fa02b1bf5df744513","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:49.204525+00:00","event":"http_request_end","request_id":"602ba70f5ccb4486","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.77}
+{"time":"2026-05-13T13:40:49.205094+00:00","event":"http_request_start","request_id":"535ee5d79c7a4b35","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:49.205141+00:00","event":"tryon_start","request_id":"535ee5d79c7a4b35"}
+{"time":"2026-05-13T13:40:49.205726+00:00","event":"tryon_invalid_request","request_id":"535ee5d79c7a4b35","reason":"invalid_session_token"}
+{"time":"2026-05-13T13:40:49.205798+00:00","event":"http_request_end","request_id":"535ee5d79c7a4b35","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.72}
+{"time":"2026-05-13T13:40:49.206773+00:00","event":"http_request_start","request_id":"3f84d6e4eed149df","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:49.206834+00:00","event":"analyze_start","request_id":"3f84d6e4eed149df"}
+{"time":"2026-05-13T13:40:50.410302+00:00","event":"analyze_success","request_id":"3f84d6e4eed149df","session_id":"cbbe680089224a318ff3ecead76b58d2","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"fallback","advice_note":"调用模型 provider=zhipu_glm46 失败，已回退默认建议：<urlopen error [Errno -3] Temporary failure in name resolution>（已重试 1 次）"}
+{"time":"2026-05-13T13:40:50.410459+00:00","event":"http_request_end","request_id":"3f84d6e4eed149df","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1203.72}
+{"time":"2026-05-13T13:40:50.410995+00:00","event":"http_request_start","request_id":"c0d0ed5773e944c8","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-13T13:40:50.411055+00:00","event":"tryon_start","request_id":"c0d0ed5773e944c8"}
+{"time":"2026-05-13T13:40:50.412205+00:00","event":"tryon_uploaded_outfits","request_id":"c0d0ed5773e944c8","session_id":"cbbe680089224a318ff3ecead76b58d2","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-13T13:40:50.424974+00:00","event":"tryon_failed","request_id":"c0d0ed5773e944c8","session_id":"cbbe680089224a318ff3ecead76b58d2","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-13T13:40:50.425077+00:00","event":"http_request_end","request_id":"c0d0ed5773e944c8","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":14.1}
+{"time":"2026-05-14T00:40:17.149333+00:00","event":"http_request_start","request_id":"d42d8a98d5d641ea","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:17.149732+00:00","event":"analyze_start","request_id":"d42d8a98d5d641ea"}
+{"time":"2026-05-14T00:40:32.565737+00:00","event":"analyze_success","request_id":"d42d8a98d5d641ea","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","user_photo":"user_photo.jpeg","user_photo_size":87597,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:40:32.565876+00:00","event":"http_request_end","request_id":"d42d8a98d5d641ea","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":15416.57}
+{"time":"2026-05-14T00:40:50.160249+00:00","event":"http_request_start","request_id":"fd934636728745eb","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:50.160347+00:00","event":"tryon_start","request_id":"fd934636728745eb"}
+{"time":"2026-05-14T00:40:50.164858+00:00","event":"tryon_uploaded_outfits","request_id":"fd934636728745eb","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:50.195640+00:00","event":"tryon_failed","request_id":"fd934636728745eb","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:50.195784+00:00","event":"http_request_end","request_id":"fd934636728745eb","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":35.55}
+{"time":"2026-05-14T00:40:56.935474+00:00","event":"http_request_start","request_id":"67216dbd6dc744f0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:56.935572+00:00","event":"tryon_start","request_id":"67216dbd6dc744f0"}
+{"time":"2026-05-14T00:40:56.939243+00:00","event":"tryon_uploaded_outfits","request_id":"67216dbd6dc744f0","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:56.967586+00:00","event":"tryon_failed","request_id":"67216dbd6dc744f0","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:56.967728+00:00","event":"http_request_end","request_id":"67216dbd6dc744f0","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":32.27}
+{"time":"2026-05-14T00:40:57.359495+00:00","event":"http_request_start","request_id":"79a7f536f88f4295","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:57.359602+00:00","event":"tryon_start","request_id":"79a7f536f88f4295"}
+{"time":"2026-05-14T00:40:57.364217+00:00","event":"tryon_uploaded_outfits","request_id":"79a7f536f88f4295","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:57.393564+00:00","event":"tryon_failed","request_id":"79a7f536f88f4295","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:57.393699+00:00","event":"http_request_end","request_id":"79a7f536f88f4295","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":34.22}
+{"time":"2026-05-14T00:40:57.559501+00:00","event":"http_request_start","request_id":"f283a2af9c914388","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:57.559602+00:00","event":"tryon_start","request_id":"f283a2af9c914388"}
+{"time":"2026-05-14T00:40:57.564269+00:00","event":"tryon_uploaded_outfits","request_id":"f283a2af9c914388","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:57.593760+00:00","event":"tryon_failed","request_id":"f283a2af9c914388","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:57.593891+00:00","event":"http_request_end","request_id":"f283a2af9c914388","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":34.41}
+{"time":"2026-05-14T00:40:57.727752+00:00","event":"http_request_start","request_id":"7df04e3057894c27","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:57.727875+00:00","event":"tryon_start","request_id":"7df04e3057894c27"}
+{"time":"2026-05-14T00:40:57.732777+00:00","event":"tryon_uploaded_outfits","request_id":"7df04e3057894c27","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:57.761560+00:00","event":"tryon_failed","request_id":"7df04e3057894c27","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:57.761701+00:00","event":"http_request_end","request_id":"7df04e3057894c27","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.97}
+{"time":"2026-05-14T00:40:57.896023+00:00","event":"http_request_start","request_id":"d70f7dba4641434b","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:57.896129+00:00","event":"tryon_start","request_id":"d70f7dba4641434b"}
+{"time":"2026-05-14T00:40:57.900705+00:00","event":"tryon_uploaded_outfits","request_id":"d70f7dba4641434b","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:57.929485+00:00","event":"tryon_failed","request_id":"d70f7dba4641434b","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:57.929620+00:00","event":"http_request_end","request_id":"d70f7dba4641434b","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.61}
+{"time":"2026-05-14T00:40:58.055473+00:00","event":"http_request_start","request_id":"dd38e47bbda74888","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:58.055607+00:00","event":"tryon_start","request_id":"dd38e47bbda74888"}
+{"time":"2026-05-14T00:40:58.060161+00:00","event":"tryon_uploaded_outfits","request_id":"dd38e47bbda74888","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:58.089811+00:00","event":"tryon_failed","request_id":"dd38e47bbda74888","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:58.089942+00:00","event":"http_request_end","request_id":"dd38e47bbda74888","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":34.49}
+{"time":"2026-05-14T00:40:58.239855+00:00","event":"http_request_start","request_id":"8eb65761b12e4c30","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:58.239957+00:00","event":"tryon_start","request_id":"8eb65761b12e4c30"}
+{"time":"2026-05-14T00:40:58.245333+00:00","event":"tryon_uploaded_outfits","request_id":"8eb65761b12e4c30","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:58.274256+00:00","event":"tryon_failed","request_id":"8eb65761b12e4c30","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:58.274396+00:00","event":"http_request_end","request_id":"8eb65761b12e4c30","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":34.56}
+{"time":"2026-05-14T00:40:58.471685+00:00","event":"http_request_start","request_id":"c4c18ca995af498d","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:40:58.471781+00:00","event":"tryon_start","request_id":"c4c18ca995af498d"}
+{"time":"2026-05-14T00:40:58.476988+00:00","event":"tryon_uploaded_outfits","request_id":"c4c18ca995af498d","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:40:58.505490+00:00","event":"tryon_failed","request_id":"c4c18ca995af498d","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:40:58.505628+00:00","event":"http_request_end","request_id":"c4c18ca995af498d","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.96}
+{"time":"2026-05-14T00:41:01.191814+00:00","event":"http_request_start","request_id":"a9a59c1bec344e28","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:01.191918+00:00","event":"tryon_start","request_id":"a9a59c1bec344e28"}
+{"time":"2026-05-14T00:41:01.196609+00:00","event":"tryon_uploaded_outfits","request_id":"a9a59c1bec344e28","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:01.224915+00:00","event":"tryon_failed","request_id":"a9a59c1bec344e28","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:01.225062+00:00","event":"http_request_end","request_id":"a9a59c1bec344e28","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.26}
+{"time":"2026-05-14T00:41:01.584174+00:00","event":"http_request_start","request_id":"c452cedadd07466e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:01.584273+00:00","event":"tryon_start","request_id":"c452cedadd07466e"}
+{"time":"2026-05-14T00:41:01.588955+00:00","event":"tryon_uploaded_outfits","request_id":"c452cedadd07466e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:01.617088+00:00","event":"tryon_failed","request_id":"c452cedadd07466e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:01.617237+00:00","event":"http_request_end","request_id":"c452cedadd07466e","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.08}
+{"time":"2026-05-14T00:41:02.000120+00:00","event":"http_request_start","request_id":"f8a29fd817da403e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:02.000235+00:00","event":"tryon_start","request_id":"f8a29fd817da403e"}
+{"time":"2026-05-14T00:41:02.004817+00:00","event":"tryon_uploaded_outfits","request_id":"f8a29fd817da403e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:02.034379+00:00","event":"tryon_failed","request_id":"f8a29fd817da403e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:02.034519+00:00","event":"http_request_end","request_id":"f8a29fd817da403e","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":34.41}
+{"time":"2026-05-14T00:41:02.559487+00:00","event":"http_request_start","request_id":"004f1af9932d470e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:02.559589+00:00","event":"tryon_start","request_id":"004f1af9932d470e"}
+{"time":"2026-05-14T00:41:02.564748+00:00","event":"tryon_uploaded_outfits","request_id":"004f1af9932d470e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:02.592549+00:00","event":"tryon_failed","request_id":"004f1af9932d470e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:02.592684+00:00","event":"http_request_end","request_id":"004f1af9932d470e","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.21}
+{"time":"2026-05-14T00:41:03.167506+00:00","event":"http_request_start","request_id":"5f6067cb4f22497e","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:03.167604+00:00","event":"tryon_start","request_id":"5f6067cb4f22497e"}
+{"time":"2026-05-14T00:41:03.172302+00:00","event":"tryon_uploaded_outfits","request_id":"5f6067cb4f22497e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:03.201241+00:00","event":"tryon_failed","request_id":"5f6067cb4f22497e","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:03.201379+00:00","event":"http_request_end","request_id":"5f6067cb4f22497e","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.89}
+{"time":"2026-05-14T00:41:03.671510+00:00","event":"http_request_start","request_id":"abc4f073ee134c81","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T00:41:03.671624+00:00","event":"tryon_start","request_id":"abc4f073ee134c81"}
+{"time":"2026-05-14T00:41:03.676413+00:00","event":"tryon_uploaded_outfits","request_id":"abc4f073ee134c81","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:41:03.704957+00:00","event":"tryon_failed","request_id":"abc4f073ee134c81","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:41:03.705096+00:00","event":"http_request_end","request_id":"abc4f073ee134c81","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":33.6}
+{"time":"2026-05-14T00:45:22.169185+00:00","event":"http_request_start","request_id":"b2fe185451ac4fbe","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:22.169285+00:00","event":"analyze_start","request_id":"b2fe185451ac4fbe"}
+{"time":"2026-05-14T00:45:27.962723+00:00","event":"analyze_success","request_id":"b2fe185451ac4fbe","session_id":"81bdb82e96bd4ac7b2573432496a1399","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:45:27.962837+00:00","event":"http_request_end","request_id":"b2fe185451ac4fbe","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":5793.68}
+{"time":"2026-05-14T00:45:27.963205+00:00","event":"http_request_start","request_id":"fa7c45831a6d4191","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.963293+00:00","event":"http_request_end","request_id":"fa7c45831a6d4191","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/user_photo.png","status_code":403,"elapsed_ms":0.1}
+{"time":"2026-05-14T00:45:27.963511+00:00","event":"http_request_start","request_id":"d38fb873a68b463d","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.963659+00:00","event":"http_request_end","request_id":"d38fb873a68b463d","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/meta.json","status_code":404,"elapsed_ms":0.16}
+{"time":"2026-05-14T00:45:27.963873+00:00","event":"http_request_start","request_id":"b3095dc6e6524a86","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.964177+00:00","event":"http_request_end","request_id":"b3095dc6e6524a86","method":"GET","path":"/api/files/81bdb82e96bd4ac7b2573432496a1399/user_photo.png","status_code":200,"elapsed_ms":0.31}
+{"time":"2026-05-14T00:45:27.965247+00:00","event":"http_request_start","request_id":"55c9d50730ed4df4","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.965301+00:00","event":"analyze_start","request_id":"55c9d50730ed4df4"}
+{"time":"2026-05-14T00:45:27.985527+00:00","event":"analyze_invalid_request","request_id":"55c9d50730ed4df4","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-14T00:45:27.985656+00:00","event":"http_request_end","request_id":"55c9d50730ed4df4","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":20.43}
+{"time":"2026-05-14T00:45:27.986674+00:00","event":"http_request_start","request_id":"057af1e7b5794c65","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.986720+00:00","event":"analyze_start","request_id":"057af1e7b5794c65"}
+{"time":"2026-05-14T00:45:27.988309+00:00","event":"analyze_success","request_id":"057af1e7b5794c65","session_id":"2ffb5e2b24074d3faf662f1ed993c33e","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-14T00:45:27.988369+00:00","event":"http_request_end","request_id":"057af1e7b5794c65","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.73}
+{"time":"2026-05-14T00:45:27.989211+00:00","event":"http_request_start","request_id":"08faa5064d714ee0","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.989255+00:00","event":"analyze_start","request_id":"08faa5064d714ee0"}
+{"time":"2026-05-14T00:45:27.990544+00:00","event":"analyze_success","request_id":"08faa5064d714ee0","session_id":"532f0976633c431db369c6a74f2abcbe","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-14T00:45:27.990614+00:00","event":"http_request_end","request_id":"08faa5064d714ee0","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.43}
+{"time":"2026-05-14T00:45:27.991416+00:00","event":"http_request_start","request_id":"936d17b76eda4cf5","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:27.991458+00:00","event":"analyze_start","request_id":"936d17b76eda4cf5"}
+{"time":"2026-05-14T00:45:34.990668+00:00","event":"analyze_success","request_id":"936d17b76eda4cf5","session_id":"b9bec7c878644af0a0f2b74fe8756533","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:45:34.990822+00:00","event":"http_request_end","request_id":"936d17b76eda4cf5","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":6999.43}
+{"time":"2026-05-14T00:45:34.991316+00:00","event":"http_request_start","request_id":"f93a3711e9d44c89","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:45:34.991365+00:00","event":"tryon_start","request_id":"f93a3711e9d44c89"}
+{"time":"2026-05-14T00:45:34.992180+00:00","event":"tryon_uploaded_outfits","request_id":"f93a3711e9d44c89","session_id":"b9bec7c878644af0a0f2b74fe8756533","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:47:35.091157+00:00","event":"tryon_failed","request_id":"f93a3711e9d44c89","session_id":"b9bec7c878644af0a0f2b74fe8756533","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:47:35.091327+00:00","event":"http_request_end","request_id":"f93a3711e9d44c89","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":120100.02}
+{"time":"2026-05-14T00:47:35.095084+00:00","event":"http_request_start","request_id":"feb300e21c3e43a3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:47:35.095141+00:00","event":"analyze_start","request_id":"feb300e21c3e43a3"}
+{"time":"2026-05-14T00:47:45.174683+00:00","event":"analyze_success","request_id":"feb300e21c3e43a3","session_id":"b766165873b64b0bbcf46a347788c746","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:47:45.174821+00:00","event":"http_request_end","request_id":"feb300e21c3e43a3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":10079.77}
+{"time":"2026-05-14T00:47:45.175442+00:00","event":"http_request_start","request_id":"436edd2f0d724328","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:47:45.175495+00:00","event":"tryon_start","request_id":"436edd2f0d724328"}
+{"time":"2026-05-14T00:47:45.176291+00:00","event":"tryon_uploaded_outfits","request_id":"436edd2f0d724328","session_id":"b766165873b64b0bbcf46a347788c746","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:49:13.440477+00:00","event":"http_request_start","request_id":"78d3027aaf2147be","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:13.440593+00:00","event":"analyze_start","request_id":"78d3027aaf2147be"}
+{"time":"2026-05-14T00:49:25.596613+00:00","event":"analyze_success","request_id":"78d3027aaf2147be","session_id":"35f9f3746f794f3996e6b85971a7e947","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:49:25.596772+00:00","event":"http_request_end","request_id":"78d3027aaf2147be","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":12156.33}
+{"time":"2026-05-14T00:49:25.597254+00:00","event":"http_request_start","request_id":"d3d8479713c64c3b","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.597343+00:00","event":"http_request_end","request_id":"d3d8479713c64c3b","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/user_photo.png","status_code":403,"elapsed_ms":0.11}
+{"time":"2026-05-14T00:49:25.597563+00:00","event":"http_request_start","request_id":"5312a85fe1a7484a","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.597713+00:00","event":"http_request_end","request_id":"5312a85fe1a7484a","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/meta.json","status_code":404,"elapsed_ms":0.16}
+{"time":"2026-05-14T00:49:25.597931+00:00","event":"http_request_start","request_id":"8be343b201a54dff","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.598211+00:00","event":"http_request_end","request_id":"8be343b201a54dff","method":"GET","path":"/api/files/35f9f3746f794f3996e6b85971a7e947/user_photo.png","status_code":200,"elapsed_ms":0.29}
+{"time":"2026-05-14T00:49:25.599070+00:00","event":"http_request_start","request_id":"864c0bedf391419c","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.599120+00:00","event":"analyze_start","request_id":"864c0bedf391419c"}
+{"time":"2026-05-14T00:49:25.611884+00:00","event":"analyze_invalid_request","request_id":"864c0bedf391419c","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-14T00:49:25.612010+00:00","event":"http_request_end","request_id":"864c0bedf391419c","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":12.97}
+{"time":"2026-05-14T00:49:25.613020+00:00","event":"http_request_start","request_id":"0f2569a0b8e54226","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.613066+00:00","event":"analyze_start","request_id":"0f2569a0b8e54226"}
+{"time":"2026-05-14T00:49:25.614727+00:00","event":"analyze_success","request_id":"0f2569a0b8e54226","session_id":"a4e465e5da70450c8e3a3302b0bf130a","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-14T00:49:25.614800+00:00","event":"http_request_end","request_id":"0f2569a0b8e54226","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.81}
+{"time":"2026-05-14T00:49:25.615697+00:00","event":"http_request_start","request_id":"36b8906f7e27443a","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.615737+00:00","event":"analyze_start","request_id":"36b8906f7e27443a"}
+{"time":"2026-05-14T00:49:25.617141+00:00","event":"analyze_success","request_id":"36b8906f7e27443a","session_id":"5d70b07ee68d40b1bb5d6d314c4208f3","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-14T00:49:25.617219+00:00","event":"http_request_end","request_id":"36b8906f7e27443a","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.55}
+{"time":"2026-05-14T00:49:25.617992+00:00","event":"http_request_start","request_id":"9b4ac73b3f1347b4","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:25.618039+00:00","event":"analyze_start","request_id":"9b4ac73b3f1347b4"}
+{"time":"2026-05-14T00:49:32.129380+00:00","event":"analyze_success","request_id":"9b4ac73b3f1347b4","session_id":"f16ec9fdf679486f8e8e0d84bee0fbfb","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:49:32.129543+00:00","event":"http_request_end","request_id":"9b4ac73b3f1347b4","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":6511.57}
+{"time":"2026-05-14T00:49:32.130241+00:00","event":"http_request_start","request_id":"9dcb5532717b42bf","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:32.130292+00:00","event":"tryon_start","request_id":"9dcb5532717b42bf"}
+{"time":"2026-05-14T00:49:32.131092+00:00","event":"tryon_uploaded_outfits","request_id":"9dcb5532717b42bf","session_id":"f16ec9fdf679486f8e8e0d84bee0fbfb","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:49:32.131350+00:00","event":"tryon_success","request_id":"9dcb5532717b42bf","session_id":"f16ec9fdf679486f8e8e0d84bee0fbfb","tryon_provider":"fashn_vton","tryon_note":"mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:49:32.131439+00:00","event":"http_request_end","request_id":"9dcb5532717b42bf","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.21}
+{"time":"2026-05-14T00:49:32.135123+00:00","event":"http_request_start","request_id":"e9f6f9c12d9f410a","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:32.135177+00:00","event":"analyze_start","request_id":"e9f6f9c12d9f410a"}
+{"time":"2026-05-14T00:49:36.334769+00:00","event":"analyze_success","request_id":"e9f6f9c12d9f410a","session_id":"4402f1a23fd2446e97530fe1d2888c3e","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:49:36.334940+00:00","event":"http_request_end","request_id":"e9f6f9c12d9f410a","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":4199.84}
+{"time":"2026-05-14T00:49:36.335498+00:00","event":"http_request_start","request_id":"ca3272b5c0a04c76","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:36.335550+00:00","event":"tryon_start","request_id":"ca3272b5c0a04c76"}
+{"time":"2026-05-14T00:49:36.336348+00:00","event":"tryon_uploaded_outfits","request_id":"ca3272b5c0a04c76","session_id":"4402f1a23fd2446e97530fe1d2888c3e","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:49:36.336494+00:00","event":"unhandled_exception","request_id":"ca3272b5c0a04c76","path":"/api/try-on","method":"POST","error":"'int' object is not subscriptable"}
+{"time":"2026-05-14T00:49:36.341213+00:00","event":"http_request_end","request_id":"ca3272b5c0a04c76","method":"POST","path":"/api/try-on","status_code":500,"elapsed_ms":5.72}
+{"time":"2026-05-14T00:49:36.342385+00:00","event":"http_request_start","request_id":"a7a3b57378054067","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:36.342450+00:00","event":"analyze_start","request_id":"a7a3b57378054067"}
+{"time":"2026-05-14T00:49:45.272040+00:00","event":"tryon_failed","request_id":"436edd2f0d724328","session_id":"b766165873b64b0bbcf46a347788c746","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:49:45.272168+00:00","event":"http_request_end","request_id":"436edd2f0d724328","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":120096.74}
+{"time":"2026-05-14T00:49:45.276124+00:00","event":"http_request_start","request_id":"39109e265b4f4cc3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:45.276206+00:00","event":"analyze_start","request_id":"39109e265b4f4cc3"}
+{"time":"2026-05-14T00:49:47.528948+00:00","event":"analyze_success","request_id":"39109e265b4f4cc3","session_id":"4642f9aa755a4eabbc265b8b828e5114","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:49:47.529095+00:00","event":"http_request_end","request_id":"39109e265b4f4cc3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2253.02}
+{"time":"2026-05-14T00:49:47.529821+00:00","event":"http_request_start","request_id":"47bf1aca1f7a4e0d","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:47.529880+00:00","event":"tryon_start","request_id":"47bf1aca1f7a4e0d"}
+{"time":"2026-05-14T00:49:47.530677+00:00","event":"tryon_uploaded_outfits","request_id":"47bf1aca1f7a4e0d","session_id":"4642f9aa755a4eabbc265b8b828e5114","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:49:50.378752+00:00","event":"analyze_success","request_id":"a7a3b57378054067","session_id":"489e66c6fbd34d299767de6dadc5281b","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:49:50.378868+00:00","event":"http_request_end","request_id":"a7a3b57378054067","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":14036.51}
+{"time":"2026-05-14T00:49:50.379438+00:00","event":"http_request_start","request_id":"65e202d5d9d5411c","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:50.379496+00:00","event":"tryon_start","request_id":"65e202d5d9d5411c"}
+{"time":"2026-05-14T00:49:50.380478+00:00","event":"tryon_uploaded_outfits","request_id":"65e202d5d9d5411c","session_id":"489e66c6fbd34d299767de6dadc5281b","outfit_files":{"bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"bottom":79,"shoes":79}}
+{"time":"2026-05-14T00:49:50.380706+00:00","event":"tryon_success","request_id":"65e202d5d9d5411c","session_id":"489e66c6fbd34d299767de6dadc5281b","tryon_provider":"fashn_vton","tryon_note":"mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:49:50.380795+00:00","event":"http_request_end","request_id":"65e202d5d9d5411c","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.37}
+{"time":"2026-05-14T00:49:50.381680+00:00","event":"http_request_start","request_id":"ac2612b236a2498c","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:49:50.381731+00:00","event":"analyze_start","request_id":"ac2612b236a2498c"}
+{"time":"2026-05-14T00:50:02.472209+00:00","event":"analyze_success","request_id":"ac2612b236a2498c","session_id":"4a7fa1dce7b84640ae51fad662c57301","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:50:02.472350+00:00","event":"http_request_end","request_id":"ac2612b236a2498c","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":12090.7}
+{"time":"2026-05-14T00:50:02.472899+00:00","event":"http_request_start","request_id":"acfd1571203444bf","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:02.472951+00:00","event":"tryon_start","request_id":"acfd1571203444bf"}
+{"time":"2026-05-14T00:50:02.473782+00:00","event":"tryon_uploaded_outfits","request_id":"acfd1571203444bf","session_id":"4a7fa1dce7b84640ae51fad662c57301","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:50:02.474020+00:00","event":"tryon_success","request_id":"acfd1571203444bf","session_id":"4a7fa1dce7b84640ae51fad662c57301","tryon_provider":"fashn_vton","tryon_note":"source=mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:50:02.474106+00:00","event":"http_request_end","request_id":"acfd1571203444bf","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.22}
+{"time":"2026-05-14T00:50:02.477745+00:00","event":"http_request_start","request_id":"781fff8c7ad14b2c","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:02.477797+00:00","event":"analyze_start","request_id":"781fff8c7ad14b2c"}
+{"time":"2026-05-14T00:50:17.630360+00:00","event":"analyze_success","request_id":"781fff8c7ad14b2c","session_id":"fa9bbbcb199d4f4c863e21c1c75f666e","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:50:17.630521+00:00","event":"http_request_end","request_id":"781fff8c7ad14b2c","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":15152.8}
+{"time":"2026-05-14T00:50:17.630958+00:00","event":"http_request_start","request_id":"90b87d0014c343b0","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:17.631006+00:00","event":"tryon_start","request_id":"90b87d0014c343b0"}
+{"time":"2026-05-14T00:50:17.631452+00:00","event":"tryon_invalid_request","request_id":"90b87d0014c343b0","reason":"missing_outfit_images"}
+{"time":"2026-05-14T00:50:17.631522+00:00","event":"http_request_end","request_id":"90b87d0014c343b0","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.57}
+{"time":"2026-05-14T00:50:17.632351+00:00","event":"http_request_start","request_id":"039ef77ff1444b79","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:17.632410+00:00","event":"analyze_start","request_id":"039ef77ff1444b79"}
+{"time":"2026-05-14T00:50:37.711867+00:00","event":"analyze_success","request_id":"039ef77ff1444b79","session_id":"88e426fdb4014cfcb8734a4564f3f444","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:50:37.712023+00:00","event":"http_request_end","request_id":"039ef77ff1444b79","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":20079.7}
+{"time":"2026-05-14T00:50:37.712583+00:00","event":"http_request_start","request_id":"9098caa6e3394025","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:37.712650+00:00","event":"tryon_start","request_id":"9098caa6e3394025"}
+{"time":"2026-05-14T00:50:37.713284+00:00","event":"tryon_invalid_request","request_id":"9098caa6e3394025","reason":"invalid_session_token"}
+{"time":"2026-05-14T00:50:37.713356+00:00","event":"http_request_end","request_id":"9098caa6e3394025","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.79}
+{"time":"2026-05-14T00:50:37.714188+00:00","event":"http_request_start","request_id":"ce3de18c62c44d84","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:37.714239+00:00","event":"analyze_start","request_id":"ce3de18c62c44d84"}
+{"time":"2026-05-14T00:50:39.816376+00:00","event":"analyze_success","request_id":"ce3de18c62c44d84","session_id":"2a11ac7919634ca39dc185071d423d4d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:50:39.816535+00:00","event":"http_request_end","request_id":"ce3de18c62c44d84","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2102.37}
+{"time":"2026-05-14T00:50:39.817106+00:00","event":"http_request_start","request_id":"61b131e6c0b6400c","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:39.817157+00:00","event":"tryon_start","request_id":"61b131e6c0b6400c"}
+{"time":"2026-05-14T00:50:39.818313+00:00","event":"tryon_uploaded_outfits","request_id":"61b131e6c0b6400c","session_id":"2a11ac7919634ca39dc185071d423d4d","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-14T00:50:39.818550+00:00","event":"tryon_failed","request_id":"61b131e6c0b6400c","session_id":"2a11ac7919634ca39dc185071d423d4d","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:50:39.818632+00:00","event":"http_request_end","request_id":"61b131e6c0b6400c","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":1.54}
+{"time":"2026-05-14T00:50:50.004865+00:00","event":"http_request_start","request_id":"c729b899574c4346","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:50.004975+00:00","event":"analyze_start","request_id":"c729b899574c4346"}
+{"time":"2026-05-14T00:50:54.291200+00:00","event":"analyze_success","request_id":"c729b899574c4346","session_id":"6aa607eab7774065ba4992437f825a4b","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:50:54.291336+00:00","event":"http_request_end","request_id":"c729b899574c4346","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":4286.5}
+{"time":"2026-05-14T00:50:54.291798+00:00","event":"http_request_start","request_id":"c9c5a7abf5f946f4","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/user_photo.png","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.291927+00:00","event":"http_request_end","request_id":"c9c5a7abf5f946f4","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/user_photo.png","status_code":403,"elapsed_ms":0.15}
+{"time":"2026-05-14T00:50:54.292194+00:00","event":"http_request_start","request_id":"6540bdba8ca649be","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/meta.json","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.292332+00:00","event":"http_request_end","request_id":"6540bdba8ca649be","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/meta.json","status_code":404,"elapsed_ms":0.15}
+{"time":"2026-05-14T00:50:54.292690+00:00","event":"http_request_start","request_id":"bfb36275c9f84cc7","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/user_photo.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.293102+00:00","event":"http_request_end","request_id":"bfb36275c9f84cc7","method":"GET","path":"/api/files/6aa607eab7774065ba4992437f825a4b/user_photo.png","status_code":200,"elapsed_ms":0.43}
+{"time":"2026-05-14T00:50:54.294120+00:00","event":"http_request_start","request_id":"4ab44d30d5784f06","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.294173+00:00","event":"analyze_start","request_id":"4ab44d30d5784f06"}
+{"time":"2026-05-14T00:50:54.307672+00:00","event":"analyze_invalid_request","request_id":"4ab44d30d5784f06","reason":"invalid_user_photo","error":"上传文件内容不是有效图片"}
+{"time":"2026-05-14T00:50:54.307800+00:00","event":"http_request_end","request_id":"4ab44d30d5784f06","method":"POST","path":"/api/analyze","status_code":400,"elapsed_ms":13.71}
+{"time":"2026-05-14T00:50:54.308838+00:00","event":"http_request_start","request_id":"8720d0475280499d","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.308885+00:00","event":"analyze_start","request_id":"8720d0475280499d"}
+{"time":"2026-05-14T00:50:54.310970+00:00","event":"analyze_success","request_id":"8720d0475280499d","session_id":"71a3180761c4459cb2edec246df264bd","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"style_vendor","advice_note":""}
+{"time":"2026-05-14T00:50:54.311032+00:00","event":"http_request_end","request_id":"8720d0475280499d","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2.23}
+{"time":"2026-05-14T00:50:54.311913+00:00","event":"http_request_start","request_id":"a5564cd7438542f4","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.311954+00:00","event":"analyze_start","request_id":"a5564cd7438542f4"}
+{"time":"2026-05-14T00:50:54.313289+00:00","event":"analyze_success","request_id":"a5564cd7438542f4","session_id":"61ec464078b74dee9ed416007b381527","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock_vendor","advice_note":"当前为 mock 模式（provider=mock_vendor），已返回本地默认建议。"}
+{"time":"2026-05-14T00:50:54.313359+00:00","event":"http_request_end","request_id":"a5564cd7438542f4","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.47}
+{"time":"2026-05-14T00:50:54.314123+00:00","event":"http_request_start","request_id":"c2b283fa6df24a73","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:50:54.314165+00:00","event":"analyze_start","request_id":"c2b283fa6df24a73"}
+{"time":"2026-05-14T00:51:47.631706+00:00","event":"tryon_failed","request_id":"47bf1aca1f7a4e0d","session_id":"4642f9aa755a4eabbc265b8b828e5114","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:51:47.631897+00:00","event":"http_request_end","request_id":"47bf1aca1f7a4e0d","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":120102.09}
+{"time":"2026-05-14T00:51:47.634025+00:00","event":"http_request_start","request_id":"dd633c7069a64ac3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:51:47.634079+00:00","event":"analyze_start","request_id":"dd633c7069a64ac3"}
+{"time":"2026-05-14T00:51:47.635810+00:00","event":"analyze_success","request_id":"dd633c7069a64ac3","session_id":"325d55f06b0b402b8969e8a64f6ddc6d","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"mock","advice_note":"当前为 mock 模式（provider=mock），已返回本地默认建议。"}
+{"time":"2026-05-14T00:51:47.635902+00:00","event":"http_request_end","request_id":"dd633c7069a64ac3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1.91}
+{"time":"2026-05-14T00:51:47.636321+00:00","event":"http_request_start","request_id":"8ee889f19a9f4206","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:51:47.636373+00:00","event":"tryon_start","request_id":"8ee889f19a9f4206"}
+{"time":"2026-05-14T00:51:47.637070+00:00","event":"tryon_uploaded_outfits","request_id":"8ee889f19a9f4206","session_id":"325d55f06b0b402b8969e8a64f6ddc6d","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:53:12.742290+00:00","event":"analyze_success","request_id":"c2b283fa6df24a73","session_id":"e81c9be7f5774d7090826d7b88305862","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:12.742453+00:00","event":"http_request_end","request_id":"c2b283fa6df24a73","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":138428.35}
+{"time":"2026-05-14T00:53:12.743087+00:00","event":"http_request_start","request_id":"9dad1242c352441a","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:12.743138+00:00","event":"tryon_start","request_id":"9dad1242c352441a"}
+{"time":"2026-05-14T00:53:12.743972+00:00","event":"tryon_uploaded_outfits","request_id":"9dad1242c352441a","session_id":"e81c9be7f5774d7090826d7b88305862","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:53:12.744211+00:00","event":"tryon_success","request_id":"9dad1242c352441a","session_id":"e81c9be7f5774d7090826d7b88305862","tryon_provider":"fashn_vton","tryon_note":"mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:53:12.744298+00:00","event":"http_request_end","request_id":"9dad1242c352441a","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.22}
+{"time":"2026-05-14T00:53:12.747906+00:00","event":"http_request_start","request_id":"16bd4bb9358144d9","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:12.747961+00:00","event":"analyze_start","request_id":"16bd4bb9358144d9"}
+{"time":"2026-05-14T00:53:16.085350+00:00","event":"analyze_success","request_id":"16bd4bb9358144d9","session_id":"0dc2e434e80e494f8989b855355bc4bc","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:16.085500+00:00","event":"http_request_end","request_id":"16bd4bb9358144d9","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":3337.62}
+{"time":"2026-05-14T00:53:16.086260+00:00","event":"http_request_start","request_id":"31e469eed556495c","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:16.086348+00:00","event":"tryon_start","request_id":"31e469eed556495c"}
+{"time":"2026-05-14T00:53:16.087403+00:00","event":"tryon_uploaded_outfits","request_id":"31e469eed556495c","session_id":"0dc2e434e80e494f8989b855355bc4bc","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:53:16.087631+00:00","event":"tryon_success","request_id":"31e469eed556495c","session_id":"0dc2e434e80e494f8989b855355bc4bc","tryon_provider":"fashn_vton","tryon_note":"mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:53:16.087709+00:00","event":"http_request_end","request_id":"31e469eed556495c","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.46}
+{"time":"2026-05-14T00:53:16.091477+00:00","event":"http_request_start","request_id":"5cea7527b7ef4fc0","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:16.091548+00:00","event":"analyze_start","request_id":"5cea7527b7ef4fc0"}
+{"time":"2026-05-14T00:53:18.513010+00:00","event":"analyze_success","request_id":"5cea7527b7ef4fc0","session_id":"45635ed0a4364e438c966e0a16eecd51","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:18.513114+00:00","event":"http_request_end","request_id":"5cea7527b7ef4fc0","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2421.68}
+{"time":"2026-05-14T00:53:18.513689+00:00","event":"http_request_start","request_id":"4781b8aa69a94ba1","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:18.513748+00:00","event":"tryon_start","request_id":"4781b8aa69a94ba1"}
+{"time":"2026-05-14T00:53:18.514722+00:00","event":"tryon_uploaded_outfits","request_id":"4781b8aa69a94ba1","session_id":"45635ed0a4364e438c966e0a16eecd51","outfit_files":{"bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"bottom":79,"shoes":79}}
+{"time":"2026-05-14T00:53:18.514950+00:00","event":"tryon_success","request_id":"4781b8aa69a94ba1","session_id":"45635ed0a4364e438c966e0a16eecd51","tryon_provider":"fashn_vton","tryon_note":"mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:53:18.515029+00:00","event":"http_request_end","request_id":"4781b8aa69a94ba1","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.35}
+{"time":"2026-05-14T00:53:18.518788+00:00","event":"http_request_start","request_id":"db20ce49aa7143c8","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:18.518852+00:00","event":"analyze_start","request_id":"db20ce49aa7143c8"}
+{"time":"2026-05-14T00:53:20.511668+00:00","event":"analyze_success","request_id":"db20ce49aa7143c8","session_id":"af70d2694f404ba1a9617c66515f21a2","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:20.511777+00:00","event":"http_request_end","request_id":"db20ce49aa7143c8","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":1993.02}
+{"time":"2026-05-14T00:53:20.512333+00:00","event":"http_request_start","request_id":"7046090aace14c0b","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:20.512386+00:00","event":"tryon_start","request_id":"7046090aace14c0b"}
+{"time":"2026-05-14T00:53:20.513198+00:00","event":"tryon_uploaded_outfits","request_id":"7046090aace14c0b","session_id":"af70d2694f404ba1a9617c66515f21a2","outfit_files":{"top":"outfit_top.png"},"outfit_sizes":{"top":79}}
+{"time":"2026-05-14T00:53:20.513427+00:00","event":"tryon_success","request_id":"7046090aace14c0b","session_id":"af70d2694f404ba1a9617c66515f21a2","tryon_provider":"fashn_vton","tryon_note":"source=mock","result_photo":"tryon_result.png","result_photo_size":79}
+{"time":"2026-05-14T00:53:20.513507+00:00","event":"http_request_end","request_id":"7046090aace14c0b","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":1.18}
+{"time":"2026-05-14T00:53:20.518141+00:00","event":"http_request_start","request_id":"9b874dd1e2de409d","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:20.518240+00:00","event":"analyze_start","request_id":"9b874dd1e2de409d"}
+{"time":"2026-05-14T00:53:23.213910+00:00","event":"analyze_success","request_id":"9b874dd1e2de409d","session_id":"91403ce7c086475082e943954c0ba277","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:23.214063+00:00","event":"http_request_end","request_id":"9b874dd1e2de409d","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2695.96}
+{"time":"2026-05-14T00:53:23.214582+00:00","event":"http_request_start","request_id":"b8272b93e44e4c83","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:23.214645+00:00","event":"tryon_start","request_id":"b8272b93e44e4c83"}
+{"time":"2026-05-14T00:53:23.215231+00:00","event":"tryon_invalid_request","request_id":"b8272b93e44e4c83","reason":"missing_outfit_images"}
+{"time":"2026-05-14T00:53:23.215318+00:00","event":"http_request_end","request_id":"b8272b93e44e4c83","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.75}
+{"time":"2026-05-14T00:53:23.216355+00:00","event":"http_request_start","request_id":"4cd22fa7af684df2","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:23.216417+00:00","event":"analyze_start","request_id":"4cd22fa7af684df2"}
+{"time":"2026-05-14T00:53:34.274580+00:00","event":"analyze_success","request_id":"4cd22fa7af684df2","session_id":"6d6752731a494233817a0aed687225cb","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:34.274692+00:00","event":"http_request_end","request_id":"4cd22fa7af684df2","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":11058.37}
+{"time":"2026-05-14T00:53:34.275200+00:00","event":"http_request_start","request_id":"d4359c3accca4523","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:34.275261+00:00","event":"tryon_start","request_id":"d4359c3accca4523"}
+{"time":"2026-05-14T00:53:34.275878+00:00","event":"tryon_invalid_request","request_id":"d4359c3accca4523","reason":"invalid_session_token"}
+{"time":"2026-05-14T00:53:34.275952+00:00","event":"http_request_end","request_id":"d4359c3accca4523","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.77}
+{"time":"2026-05-14T00:53:34.276792+00:00","event":"http_request_start","request_id":"19c40573a0984cd1","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:34.276842+00:00","event":"analyze_start","request_id":"19c40573a0984cd1"}
+{"time":"2026-05-14T00:53:39.463832+00:00","event":"analyze_success","request_id":"19c40573a0984cd1","session_id":"0480bfb38dc643f5823f6231908f6dec","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:39.463973+00:00","event":"http_request_end","request_id":"19c40573a0984cd1","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":5187.21}
+{"time":"2026-05-14T00:53:39.464677+00:00","event":"http_request_start","request_id":"ad8c489a804b4d7f","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:39.464729+00:00","event":"tryon_start","request_id":"ad8c489a804b4d7f"}
+{"time":"2026-05-14T00:53:39.466003+00:00","event":"tryon_uploaded_outfits","request_id":"ad8c489a804b4d7f","session_id":"0480bfb38dc643f5823f6231908f6dec","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-14T00:53:39.466218+00:00","event":"tryon_failed","request_id":"ad8c489a804b4d7f","session_id":"0480bfb38dc643f5823f6231908f6dec","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:53:39.466301+00:00","event":"http_request_end","request_id":"ad8c489a804b4d7f","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":1.63}
+{"time":"2026-05-14T00:53:47.737925+00:00","event":"tryon_failed","request_id":"8ee889f19a9f4206","session_id":"325d55f06b0b402b8969e8a64f6ddc6d","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:53:47.738073+00:00","event":"http_request_end","request_id":"8ee889f19a9f4206","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":120101.76}
+{"time":"2026-05-14T00:53:47.741696+00:00","event":"http_request_start","request_id":"cf83448181de4ac3","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:47.741751+00:00","event":"analyze_start","request_id":"cf83448181de4ac3"}
+{"time":"2026-05-14T00:53:50.633088+00:00","event":"http_request_start","request_id":"6779145efecf46a5","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"curl/7.81.0"}
+{"time":"2026-05-14T00:53:50.633195+00:00","event":"analyze_start","request_id":"6779145efecf46a5"}
+{"time":"2026-05-14T00:53:56.973693+00:00","event":"analyze_success","request_id":"cf83448181de4ac3","session_id":"7ff502857f0d448189f96ef18147ccfb","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:56.973828+00:00","event":"http_request_end","request_id":"cf83448181de4ac3","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":9232.16}
+{"time":"2026-05-14T00:53:56.974220+00:00","event":"http_request_start","request_id":"1baea77cee3243c3","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:56.974266+00:00","event":"tryon_start","request_id":"1baea77cee3243c3"}
+{"time":"2026-05-14T00:53:56.974717+00:00","event":"tryon_invalid_request","request_id":"1baea77cee3243c3","reason":"missing_outfit_images"}
+{"time":"2026-05-14T00:53:56.974784+00:00","event":"http_request_end","request_id":"1baea77cee3243c3","method":"POST","path":"/api/try-on","status_code":400,"elapsed_ms":0.57}
+{"time":"2026-05-14T00:53:56.975626+00:00","event":"http_request_start","request_id":"12e913caee374775","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:56.975706+00:00","event":"analyze_start","request_id":"12e913caee374775"}
+{"time":"2026-05-14T00:53:59.635065+00:00","event":"analyze_success","request_id":"12e913caee374775","session_id":"aebbf641c14442d8a34d6e5d57fdc5ea","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:53:59.635199+00:00","event":"http_request_end","request_id":"12e913caee374775","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":2659.6}
+{"time":"2026-05-14T00:53:59.635716+00:00","event":"http_request_start","request_id":"37bc1ce885264439","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:59.635764+00:00","event":"tryon_start","request_id":"37bc1ce885264439"}
+{"time":"2026-05-14T00:53:59.636352+00:00","event":"tryon_invalid_request","request_id":"37bc1ce885264439","reason":"invalid_session_token"}
+{"time":"2026-05-14T00:53:59.636430+00:00","event":"http_request_end","request_id":"37bc1ce885264439","method":"POST","path":"/api/try-on","status_code":403,"elapsed_ms":0.72}
+{"time":"2026-05-14T00:53:59.637241+00:00","event":"http_request_start","request_id":"c55c5a98260f43e1","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:53:59.637289+00:00","event":"analyze_start","request_id":"c55c5a98260f43e1"}
+{"time":"2026-05-14T00:54:00.880230+00:00","event":"analyze_success","request_id":"6779145efecf46a5","session_id":"3ad317e086a045d1bf5f2b2ce1cbed5b","user_photo":"user_photo.jpeg","user_photo_size":87597,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:54:00.880336+00:00","event":"http_request_end","request_id":"6779145efecf46a5","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":10247.47}
+{"time":"2026-05-14T00:54:00.916573+00:00","event":"http_request_start","request_id":"eceb253a14144683","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"curl/7.81.0"}
+{"time":"2026-05-14T00:54:00.916657+00:00","event":"tryon_start","request_id":"eceb253a14144683"}
+{"time":"2026-05-14T00:54:00.920008+00:00","event":"tryon_uploaded_outfits","request_id":"eceb253a14144683","session_id":"3ad317e086a045d1bf5f2b2ce1cbed5b","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:54:00.947185+00:00","event":"tryon_failed","request_id":"eceb253a14144683","session_id":"3ad317e086a045d1bf5f2b2ce1cbed5b","tryon_provider":"error","tryon_note":"换装厂商 default_vendor 缺少 endpoint/model 配置"}
+{"time":"2026-05-14T00:54:00.947324+00:00","event":"http_request_end","request_id":"eceb253a14144683","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":30.76}
+{"time":"2026-05-14T00:54:03.987825+00:00","event":"analyze_success","request_id":"c55c5a98260f43e1","session_id":"733c45e39e1c4108b798a41b8ec17207","user_photo":"user_photo.png","user_photo_size":79,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:54:03.987939+00:00","event":"http_request_end","request_id":"c55c5a98260f43e1","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":4350.73}
+{"time":"2026-05-14T00:54:03.988368+00:00","event":"http_request_start","request_id":"11737c35c1d742cb","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Werkzeug/3.1.4"}
+{"time":"2026-05-14T00:54:03.988427+00:00","event":"tryon_start","request_id":"11737c35c1d742cb"}
+{"time":"2026-05-14T00:54:03.989595+00:00","event":"tryon_uploaded_outfits","request_id":"11737c35c1d742cb","session_id":"733c45e39e1c4108b798a41b8ec17207","outfit_files":{"top":"outfit_top.png","bottom":"outfit_bottom.png","shoes":"outfit_shoes.png"},"outfit_sizes":{"top":79,"bottom":79,"shoes":79}}
+{"time":"2026-05-14T00:54:20.212808+00:00","event":"http_request_start","request_id":"20968e1c724b441d","method":"POST","path":"/api/analyze","query":{},"remote_addr":"127.0.0.1","user_agent":"curl/7.81.0"}
+{"time":"2026-05-14T00:54:20.212955+00:00","event":"analyze_start","request_id":"20968e1c724b441d"}
+{"time":"2026-05-14T00:56:04.107073+00:00","event":"tryon_failed","request_id":"11737c35c1d742cb","session_id":"733c45e39e1c4108b798a41b8ec17207","tryon_provider":"error","tryon_note":"提交到 FASHN-VTON 服务失败，请先启动 /mnt/16t/fashn-vton-1.5/examples/api_server.py"}
+{"time":"2026-05-14T00:56:04.107266+00:00","event":"http_request_end","request_id":"11737c35c1d742cb","method":"POST","path":"/api/try-on","status_code":502,"elapsed_ms":120118.91}
+{"time":"2026-05-14T00:56:44.612462+00:00","event":"analyze_success","request_id":"20968e1c724b441d","session_id":"6735a611da654a2c9b1e94c8de008a14","user_photo":"user_photo.jpeg","user_photo_size":87597,"advice_provider":"zhipu_glm46","advice_note":""}
+{"time":"2026-05-14T00:56:44.612592+00:00","event":"http_request_end","request_id":"20968e1c724b441d","method":"POST","path":"/api/analyze","status_code":200,"elapsed_ms":144399.84}
+{"time":"2026-05-14T00:56:44.648557+00:00","event":"http_request_start","request_id":"5e5ab02d986a4608","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"curl/7.81.0"}
+{"time":"2026-05-14T00:56:44.648672+00:00","event":"tryon_start","request_id":"5e5ab02d986a4608"}
+{"time":"2026-05-14T00:56:44.653655+00:00","event":"tryon_uploaded_outfits","request_id":"5e5ab02d986a4608","session_id":"6735a611da654a2c9b1e94c8de008a14","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T00:57:02.928456+00:00","event":"tryon_success","request_id":"5e5ab02d986a4608","session_id":"6735a611da654a2c9b1e94c8de008a14","tryon_provider":"fashn_vton","tryon_note":"source=http://127.0.0.1:18000 task_id=d96a6d0fdf6b","result_photo":"tryon_result.png","result_photo_size":737815}
+{"time":"2026-05-14T00:57:02.928574+00:00","event":"http_request_end","request_id":"5e5ab02d986a4608","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":18280.04}
+{"time":"2026-05-14T00:57:02.949322+00:00","event":"http_request_start","request_id":"7a4eb4049e424ff6","method":"GET","path":"/api/files/6735a611da654a2c9b1e94c8de008a14/tryon_result.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"curl/7.81.0"}
+{"time":"2026-05-14T00:57:02.951103+00:00","event":"http_request_end","request_id":"7a4eb4049e424ff6","method":"GET","path":"/api/files/6735a611da654a2c9b1e94c8de008a14/tryon_result.png","status_code":200,"elapsed_ms":1.81}
+{"time":"2026-05-14T01:06:21.490853+00:00","event":"http_request_start","request_id":"79158d4e5b084055","method":"POST","path":"/api/try-on","query":{},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T01:06:21.490943+00:00","event":"tryon_start","request_id":"79158d4e5b084055"}
+{"time":"2026-05-14T01:06:21.495540+00:00","event":"tryon_uploaded_outfits","request_id":"79158d4e5b084055","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","outfit_files":{"top":"outfit_top.jpg"},"outfit_sizes":{"top":244299}}
+{"time":"2026-05-14T01:06:38.554834+00:00","event":"tryon_success","request_id":"79158d4e5b084055","session_id":"a5c0f2ea04c349dc9c00421fd484d92a","tryon_provider":"fashn_vton","tryon_note":"source=http://127.0.0.1:18000 task_id=5c2f23bf126a","result_photo":"tryon_result.png","result_photo_size":737815}
+{"time":"2026-05-14T01:06:38.554963+00:00","event":"http_request_end","request_id":"79158d4e5b084055","method":"POST","path":"/api/try-on","status_code":200,"elapsed_ms":17064.4}
+{"time":"2026-05-14T01:06:38.558001+00:00","event":"http_request_start","request_id":"f3fcebd4958443cd","method":"GET","path":"/api/files/a5c0f2ea04c349dc9c00421fd484d92a/tryon_result.png","query":{"token":"<masked>"},"remote_addr":"127.0.0.1","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}
+{"time":"2026-05-14T01:06:38.558320+00:00","event":"http_request_end","request_id":"f3fcebd4958443cd","method":"GET","path":"/api/files/a5c0f2ea04c349dc9c00421fd484d92a/tryon_result.png","status_code":200,"elapsed_ms":0.34}

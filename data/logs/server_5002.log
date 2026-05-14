@@ -1,0 +1,13 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.2.34:5002
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [14/May/2026 08:54:12] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2026 08:56:44] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2026 08:57:02] "POST /api/try-on HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2026 08:57:02] "GET /api/files/6735a611da654a2c9b1e94c8de008a14/tryon_result.png?token=RgXF3ANvSjJNQ-UQhMzxYdVnuL_ZU1Hv HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2026 09:06:38] "POST /api/try-on HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2026 09:06:38] "GET /api/files/a5c0f2ea04c349dc9c00421fd484d92a/tryon_result.png?token=alYpYcNrUNweIt71OnSmQ9kABwDHYodX HTTP/1.1" 200 -

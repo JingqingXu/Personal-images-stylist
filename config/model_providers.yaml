@@ -1,0 +1,38 @@
+style_advice:
+  active_provider: zhipu_glm46
+  providers:
+    zhipu_glm46:
+      type: openai_compatible
+      endpoint: https://open.bigmodel.cn/api/paas/v4/chat/completions
+      model: glm-4.6v
+      api_key_envs:
+        - STYLE_ADVICE_API_KEY
+        - ZHIPU_API_KEY
+      temperature: 1
+      require_api_key: true
+      auth_mode: bearer
+      timeout_seconds: 180
+      max_retries: 1
+    mock:
+      type: mock
+
+tryon:
+  active_backend: vendor_api
+  vendor_api:
+    active_vendor: default_vendor
+    vendors:
+      default_vendor:
+        type: openai_compatible
+        endpoint: ""
+        model: virtual-try-on
+        api_key_env: TRYON_API_KEY
+        timeout_seconds: 180
+        require_api_key: true
+        auth_mode: bearer
+  local_model:
+    type: http
+    endpoint: http://127.0.0.1:8001/tryon
+    model: local-tryon
+    timeout_seconds: 300
+    require_api_key: false
+    auth_mode: bearer
